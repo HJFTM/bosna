@@ -193,7 +193,7 @@ const pages = (CURRENT_PROJECT === 'svi_rodovi')
   : rodEntitetiIzvoriPages;
 
 export default {
-  title: `Jularić (${CURRENT_PROJECT})`,
+  title: "Jularić",
   pages,
   dynamicPaths: () => {
     // ovdje možeš staviti logiku ako treba
