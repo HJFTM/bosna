@@ -45,12 +45,12 @@ import "../../_observablehq/client.8d1cd726.js";
   <section>
     <summary>Mjesta</summary>
     <ol>
-    <li class="observablehq-link"><a href="./mjesto/Popovi%25C4%2587i">1700. Popovići</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Dragalovci">1748. Dragalovci</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Siv%25C5%25A1a">1758. Sivša</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Dubo%25C4%258Dac">1765. Dubočac</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Miljanovci">1775. Miljanovci</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Pe%25C4%2587nik">1810. Pećnik</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Popovi%25C4%2587i">1700. Popovići</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Dragalovci">1748. Dragalovci</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Siv%25C5%25A1a">1758. Sivša</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Dubo%25C4%258Dac">1765. Dubočac</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Miljanovci">1775. Miljanovci</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Pe%25C4%2587nik">1810. Pećnik</a></li>
     </ol>
   </section>
   <section>
@@ -70,13 +70,15 @@ import "../../_observablehq/client.8d1cd726.js";
 </nav>
 </aside>
 <main id="observablehq-main" class="observablehq">
-<div id="observablehq-fe81a032"></div>
-<p>Credit: <a href="https://observablehq.com/d/3782f7950df08aaf" target="_blank" rel="noopener noreferrer">BOLEST (E) by FTM</a></p>
+<div id="observablehq-navigacija-5cad295f"></div>
+<p>Credit: <a href="https://observablehq.com/d/d48f1e00167dacc5" target="_blank" rel="noopener noreferrer">Navigacija by FTM</a></p>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/d/3782f7950df08aaf.js?v=4";
-new Runtime().module(define, Inspector.into("#observablehq-fe81a032"));
+import define from "https://api.observablehq.com/d/d48f1e00167dacc5.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "navigacija") return new Inspector(document.querySelector("#observablehq-navigacija-5cad295f"));
+});
 </script>
 </main>
 <footer id="observablehq-footer">
