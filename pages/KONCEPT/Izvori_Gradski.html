@@ -45,12 +45,12 @@ import "../../_observablehq/client.8d1cd726.js";
   <section>
     <summary>Mjesta</summary>
     <ol>
-    <li class="observablehq-link"><a href="./mjesto/Popovi%25C4%2587i">1700. Popovići</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Dragalovci">1748. Dragalovci</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Siv%25C5%25A1a">1758. Sivša</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Dubo%25C4%258Dac">1765. Dubočac</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Miljanovci">1775. Miljanovci</a></li>
-    <li class="observablehq-link"><a href="./mjesto/Pe%25C4%2587nik">1810. Pećnik</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Popovi%25C4%2587i">1700. Popovići</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Dragalovci">1748. Dragalovci</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Siv%25C5%25A1a">1758. Sivša</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Dubo%25C4%258Dac">1765. Dubočac</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Miljanovci">1775. Miljanovci</a></li>
+    <li class="observablehq-link"><a href="../ENTITET/mjesto/Pe%25C4%2587nik">1810. Pećnik</a></li>
     </ol>
   </section>
   <section>
@@ -65,7 +65,7 @@ import "../../_observablehq/client.8d1cd726.js";
   <section>
     <summary>----------</summary>
     <ol>
-    <li class="observablehq-link"><a href="../KONCEPT/Navigacija">Sadržaj</a></li>
+    <li class="observablehq-link"><a href="./Navigacija">Sadržaj</a></li>
     </ol>
   </section>
 </nav>
@@ -76,12 +76,16 @@ import "../../_observablehq/client.8d1cd726.js";
 </nav>
 </aside>
 <main id="observablehq-main" class="observablehq">
-<div id="observablehq-d397f413"></div>
+<div id="observablehq-header-a090ee03"></div>
+<div id="observablehq-plot-a090ee03"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/d/3fc8f447188ee038.js?v=4";
-new Runtime().module(define, Inspector.into("#observablehq-d397f413"));
+import define from "https://api.observablehq.com/d/0bbea70f92998dc6.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "header") return new Inspector(document.querySelector("#observablehq-header-a090ee03"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-a090ee03"));
+});
 </script>
 </main>
 <footer id="observablehq-footer">
