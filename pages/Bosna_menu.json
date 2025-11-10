@@ -103,15 +103,6 @@
           "path": "/pages/ROD/pismo/Bosna"
         }
       ]
-    },
-    {
-      "name": "----------",
-      "pages": [
-        {
-          "name": "Sadržaj",
-          "path": "/pages/KONCEPT/Navigacija"
-        }
-      ]
     }
   ],
   "entryPoints": [
@@ -137,7 +128,6 @@
     "/pages/ROD/grobovi/Bosna",
     "/pages/ROD/katastar/Bosna",
     "/pages/ROD/pismo/Bosna",
-    "/pages/KONCEPT/Navigacija",
     "/pages/ENTITET/mjesto_migracije/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_zapisi/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_obitelji/Popovi%C4%87i",
