@@ -25,16 +25,16 @@
           "path": "/pages/ROD/stablo/Bosna"
         },
         {
-          "name": "  Bolesti",
-          "path": "/pages/ROD/bolesti/Bosna"
-        },
-        {
           "name": "  Mjesta",
           "path": "/pages/ROD/mjesta/Bosna"
         },
         {
           "name": "  Migracije",
           "path": "/pages/ROD/migracije/Bosna"
+        },
+        {
+          "name": "  Bolesti",
+          "path": "/pages/ROD/bolesti/Bosna"
         },
         {
           "name": "  Izvori*",
@@ -120,9 +120,9 @@
     "/pages/ROD/obitelji/Bosna",
     "/pages/ROD/dogadjaji/Bosna",
     "/pages/ROD/stablo/Bosna",
-    "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/mjesta/Bosna",
     "/pages/ROD/migracije/Bosna",
+    "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
