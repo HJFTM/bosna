@@ -47,35 +47,6 @@
       ]
     },
     {
-      "name": "Mjesta",
-      "pages": [
-        {
-          "name": "1700. Popovići",
-          "path": "/pages/ENTITET/mjesto/Popovi%C4%87i"
-        },
-        {
-          "name": "1748. Dragalovci",
-          "path": "/pages/ENTITET/mjesto/Dragalovci"
-        },
-        {
-          "name": "1758. Sivša",
-          "path": "/pages/ENTITET/mjesto/Siv%C5%A1a"
-        },
-        {
-          "name": "1765. Dubočac",
-          "path": "/pages/ENTITET/mjesto/Dubo%C4%8Dac"
-        },
-        {
-          "name": "1775. Miljanovci",
-          "path": "/pages/ENTITET/mjesto/Miljanovci"
-        },
-        {
-          "name": "1810. Pećnik",
-          "path": "/pages/ENTITET/mjesto/Pe%C4%87nik"
-        }
-      ]
-    },
-    {
       "name": "Izvori",
       "pages": [
         {
@@ -116,12 +87,6 @@
     "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/Bosna",
-    "/pages/ENTITET/mjesto/Popovi%C4%87i",
-    "/pages/ENTITET/mjesto/Dragalovci",
-    "/pages/ENTITET/mjesto/Siv%C5%A1a",
-    "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
-    "/pages/ENTITET/mjesto/Miljanovci",
-    "/pages/ENTITET/mjesto/Pe%C4%87nik",
     "/pages/ROD/popisi/Bosna",
     "/pages/ROD/matice/Bosna",
     "/pages/ROD/groblje/Bosna",
