@@ -37,7 +37,6 @@
   border-bottom: 1px solid #333;
 }
 
-/* Dark / light pozadina headera */
 @media (prefers-color-scheme: dark) {
   .global-header {
     background: rgba(5, 5, 5, 0.92);
@@ -108,7 +107,7 @@
 }
 
 .nav-link.active {
-  border-bottom-color: #d4a373; /* boja naglaska, možeš promijeniti */
+  border-bottom-color: #d4a373;
 }
 
 .page-container {
