@@ -48,9 +48,9 @@ export const obiteljiPagesAll = [
 export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
   const mjestaSet = new Set();
 
-  // 1) skup mjesta
+  // 1) skup mjesta – dodano: o.TIP === "M"
   for (const o of data) {
-    if (!o.ROD || o.ROD !== rod || !o.MJESTO || !o.OBITELJ) continue;
+    if (!o.ROD || o.ROD !== rod || !o.MJESTO || !o.OBITELJ || o.TIP !== "M") continue;
     mjestaSet.add(o.MJESTO.trim());
   }
 
@@ -58,9 +58,10 @@ export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
   const mapaMjesta = {};
 
   for (const mjesto of mjesta) {
-    // 2) filtriraj obitelji za to mjesto (uključujući migracije)
+    // 2) filtriraj obitelji za to mjesto (uključujući migracije) – dodano: o.TIP === "M"
     const obiteljiZaMjesto = data.filter(o =>
       o.ROD === rod &&
+      o.TIP === "M" &&
       o.OBITELJ &&
       (
         (o.MJESTO && o.MJESTO.trim() === mjesto) ||
@@ -90,7 +91,7 @@ export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
     mapaMjesta[mjesto] = Array.from(mapaObitelji.entries()).map(
       ([obitelj, paths]) => ({
         name: obitelj,
-        path: paths.osnovni, // “glavna” stranica obitelji
+        path: paths.osnovni,
         pages: [
           { name: "Pregled", path: paths.osnovni },
           { name: "Na karti", path: paths.geo },
@@ -107,6 +108,7 @@ export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
     pages: obitelji
   }));
 }
+
 
 
 export function generirajObiteljiGEOpoMjestu(data, rod = "Bosna") {
