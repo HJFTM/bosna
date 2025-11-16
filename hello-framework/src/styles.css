@@ -26,3 +26,94 @@
   --theme-link-color: var(--theme-accent);
   --theme-link-hover-color: color-mix(in srgb, var(--theme-accent) 85%, white);
 }
+
+/* GLOBALNI HEADER */
+
+.global-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #333;
+}
+
+/* Dark / light pozadina headera */
+@media (prefers-color-scheme: dark) {
+  .global-header {
+    background: rgba(5, 5, 5, 0.92);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .global-header {
+    background: rgba(255, 255, 255, 0.92);
+  }
+}
+
+.global-nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.site-title {
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-title {
+    color: #f5f5f5;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .site-title {
+    color: #111;
+  }
+}
+
+.global-nav-list {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0.15rem;
+  border-bottom: 2px solid transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-link {
+    color: #e5e5e5;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .nav-link {
+    color: #222;
+  }
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-link.active {
+  border-bottom-color: #d4a373; /* boja naglaska, možeš promijeniti */
+}
+
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
