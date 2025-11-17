@@ -137,7 +137,7 @@ function generirajZupePoRodovima(dataCombined, rod = "Bosna") {
        (Number.isFinite(b.minGodina) ? b.minGodina : Infinity)) ||
       a.name.localeCompare(b.name, "hr", { sensitivity: "base" })
     );
-  let izbornik = "Župe " & rod;
+  let izbornik = "Župe " + rod;
   return { name: izbornik, pages };
 }
 
