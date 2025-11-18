@@ -13,6 +13,7 @@ pages = uvodPages;
 
 if (CURRENT_PROJECT === "Uvod") {
   pages = uvodPages;
+  pages = obiteljiPages;
 } else if (CURRENT_PROJECT === "mjesta") {
   pages = mjestaMenu; 
 } else if (CURRENT_PROJECT === "Obitelji") {
