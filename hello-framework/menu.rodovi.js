@@ -26,7 +26,7 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
     },
     {
     name: "Obitelji",
-    pages: [...obiteljiPages]
+    pages: obiteljiPages
    },
 
     {
