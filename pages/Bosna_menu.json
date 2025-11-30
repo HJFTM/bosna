@@ -2,132 +2,1739 @@
   "project": "Bosna",
   "pages": [
     {
-      "name": "Uvod",
+      "name": "Popovići",
       "pages": [
         {
-          "name": "  Prezime",
-          "path": "/pages/ROD/prezime/Bosna"
+          "name": "1700. Marko",
+          "path": "/pages/ENTITET/obitelj/1700.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1700.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1700.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1700.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1700.%20Marko"
+            }
+          ]
         },
         {
-          "name": "  Generacije",
-          "path": "/pages/ROD/generacije/Bosna"
+          "name": "1714. Mato",
+          "path": "/pages/ENTITET/obitelj/1714.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1714.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1714.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1714.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1714.%20Mato"
+            }
+          ]
         },
         {
-          "name": "  Obitelji",
-          "path": "/pages/ROD/obitelji/Bosna"
+          "name": "1725. Ivan",
+          "path": "/pages/ENTITET/obitelj/1725.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1725.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1725.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1725.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1725.%20Ivan"
+            }
+          ]
         },
         {
-          "name": "  Događaji",
-          "path": "/pages/ROD/dogadjaji/Bosna"
+          "name": "1727. Petar",
+          "path": "/pages/ENTITET/obitelj/1727.%20Petar",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1727.%20Petar"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1727.%20Petar"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1727.%20Petar"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1727.%20Petar"
+            }
+          ]
         },
         {
-          "name": "  Stablo",
-          "path": "/pages/ROD/stablo/Bosna"
+          "name": "1741. Matia",
+          "path": "/pages/ENTITET/obitelj/1741.%20Matia",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1741.%20Matia"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1741.%20Matia"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1741.%20Matia"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1741.%20Matia"
+            }
+          ]
         },
         {
-          "name": "  Mjesta",
-          "path": "/pages/ROD/mjesta/Bosna"
+          "name": "1742. Stjepan",
+          "path": "/pages/ENTITET/obitelj/1742.%20Stjepan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1742.%20Stjepan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1742.%20Stjepan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1742.%20Stjepan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1742.%20Stjepan"
+            }
+          ]
         },
         {
-          "name": "  Migracije",
-          "path": "/pages/ROD/migracije/Bosna"
+          "name": "1748. Nikola",
+          "path": "/pages/ENTITET/obitelj/1748.%20Nikola",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1748.%20Nikola"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1748.%20Nikola"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1748.%20Nikola"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1748.%20Nikola"
+            }
+          ]
         },
         {
-          "name": "  Bolesti",
-          "path": "/pages/ROD/bolesti/Bosna"
+          "name": "1756. Petar ",
+          "path": "/pages/ENTITET/obitelj/1756.%20Petar%20",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1756.%20Petar%20"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1756.%20Petar%20"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1756.%20Petar%20"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1756.%20Petar%20"
+            }
+          ]
         },
         {
-          "name": "  Izvori*",
-          "path": "/pages/ROD/izvori/Bosna"
+          "name": "1758. Mio",
+          "path": "/pages/ENTITET/obitelj/1758.%20Mio",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1758.%20Mio"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1758.%20Mio"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1758.%20Mio"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1758.%20Mio"
+            }
+          ]
         },
         {
-          "name": "  Župe",
-          "path": "/pages/ROD/zupe/Bosna"
+          "name": "1758. Pavo",
+          "path": "/pages/ENTITET/obitelj/1758.%20Pavo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1758.%20Pavo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1758.%20Pavo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1758.%20Pavo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1758.%20Pavo"
+            }
+          ]
+        },
+        {
+          "name": "1765. Ivan",
+          "path": "/pages/ENTITET/obitelj/1765.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1765.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1765.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1765.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1765.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1766. Marko",
+          "path": "/pages/ENTITET/obitelj/1766.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1766.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1766.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1766.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1766.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1770. Ivan",
+          "path": "/pages/ENTITET/obitelj/1770.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1770.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1770.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1770.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1770.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1789. Marko",
+          "path": "/pages/ENTITET/obitelj/1789.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1789.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1789.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1789.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1789.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1834. Ivan",
+          "path": "/pages/ENTITET/obitelj/1834.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1834.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1834.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1834.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1834.%20Ivan"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Mjesta",
+      "name": "Miljanovci",
       "pages": [
         {
-          "name": "1700. Popovići",
-          "path": "/pages/ENTITET/mjesto/Popovi%C4%87i"
+          "name": "1775. Ilija",
+          "path": "/pages/ENTITET/obitelj/1775.%20Ilija",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1775.%20Ilija"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1775.%20Ilija"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1775.%20Ilija"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1775.%20Ilija"
+            }
+          ]
         },
         {
-          "name": "1748. Dragalovci",
-          "path": "/pages/ENTITET/mjesto/Dragalovci"
+          "name": "1777. Stjepan",
+          "path": "/pages/ENTITET/obitelj/1777.%20Stjepan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1777.%20Stjepan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1777.%20Stjepan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1777.%20Stjepan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1777.%20Stjepan"
+            }
+          ]
         },
         {
-          "name": "1758. Sivša",
-          "path": "/pages/ENTITET/mjesto/Siv%C5%A1a"
+          "name": "1780. Lovro",
+          "path": "/pages/ENTITET/obitelj/1780.%20Lovro",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1780.%20Lovro"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1780.%20Lovro"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1780.%20Lovro"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1780.%20Lovro"
+            }
+          ]
         },
         {
-          "name": "1765. Dubočac",
-          "path": "/pages/ENTITET/mjesto/Dubo%C4%8Dac"
-        },
-        {
-          "name": "1775. Miljanovci",
-          "path": "/pages/ENTITET/mjesto/Miljanovci"
-        },
-        {
-          "name": "1810. Pećnik",
-          "path": "/pages/ENTITET/mjesto/Pe%C4%87nik"
+          "name": "1800. Anto",
+          "path": "/pages/ENTITET/obitelj/1800.%20Anto",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1800.%20Anto"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1800.%20Anto"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1800.%20Anto"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1800.%20Anto"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Izvori",
+      "name": "Dubočac",
       "pages": [
         {
-          "name": "  Popisi",
-          "path": "/pages/ROD/popisi/Bosna"
+          "name": "1765. Ivan",
+          "path": "/pages/ENTITET/obitelj/1765.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1765.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1765.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1765.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1765.%20Ivan"
+            }
+          ]
         },
         {
-          "name": "  Matice",
-          "path": "/pages/ROD/matice/Bosna"
+          "name": "1770. Ivan",
+          "path": "/pages/ENTITET/obitelj/1770.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1770.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1770.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1770.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1770.%20Ivan"
+            }
+          ]
         },
         {
-          "name": "  Groblje",
-          "path": "/pages/ROD/groblje/Bosna"
+          "name": "1791. Ilia",
+          "path": "/pages/ENTITET/obitelj/1791.%20Ilia",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1791.%20Ilia"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1791.%20Ilia"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1791.%20Ilia"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1791.%20Ilia"
+            }
+          ]
         },
         {
-          "name": "  Grobovi",
-          "path": "/pages/ROD/grobovi/Bosna"
+          "name": "1825. Petar",
+          "path": "/pages/ENTITET/obitelj/1825.%20Petar",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1825.%20Petar"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1825.%20Petar"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1825.%20Petar"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1825.%20Petar"
+            }
+          ]
         },
         {
-          "name": "  Katastar",
-          "path": "/pages/ROD/katastar/Bosna"
+          "name": "1850. ?",
+          "path": "/pages/ENTITET/obitelj/1850.%20%3F",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1850.%20%3F"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1850.%20%3F"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1850.%20%3F"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1850.%20%3F"
+            }
+          ]
         },
         {
-          "name": "  Pismo / Jezik",
-          "path": "/pages/ROD/pismo/Bosna"
+          "name": "1884. Marko",
+          "path": "/pages/ENTITET/obitelj/1884.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1884.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1884.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1884.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1884.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1884. Stjepan",
+          "path": "/pages/ENTITET/obitelj/1884.%20Stjepan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1884.%20Stjepan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1884.%20Stjepan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1884.%20Stjepan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1884.%20Stjepan"
+            }
+          ]
+        },
+        {
+          "name": "1884. Ivan",
+          "path": "/pages/ENTITET/obitelj/1884.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1884.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1884.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1884.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1884.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1884. Jerko",
+          "path": "/pages/ENTITET/obitelj/1884.%20Jerko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1884.%20Jerko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1884.%20Jerko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1884.%20Jerko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1884.%20Jerko"
+            }
+          ]
+        },
+        {
+          "name": "1885. Josip",
+          "path": "/pages/ENTITET/obitelj/1885.%20Josip",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1885.%20Josip"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1885.%20Josip"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1885.%20Josip"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1885.%20Josip"
+            }
+          ]
+        },
+        {
+          "name": "1905. Ivo",
+          "path": "/pages/ENTITET/obitelj/1905.%20Ivo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1905.%20Ivo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1905.%20Ivo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1905.%20Ivo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1905.%20Ivo"
+            }
+          ]
+        },
+        {
+          "name": "1905. Pejo",
+          "path": "/pages/ENTITET/obitelj/1905.%20Pejo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1905.%20Pejo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1905.%20Pejo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1905.%20Pejo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1905.%20Pejo"
+            }
+          ]
+        },
+        {
+          "name": "1910. Nikola",
+          "path": "/pages/ENTITET/obitelj/1910.%20Nikola",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1910.%20Nikola"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1910.%20Nikola"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1910.%20Nikola"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1910.%20Nikola"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragalovci",
+      "pages": [
+        {
+          "name": "1748. Nikola",
+          "path": "/pages/ENTITET/obitelj/1748.%20Nikola",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1748.%20Nikola"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1748.%20Nikola"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1748.%20Nikola"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1748.%20Nikola"
+            }
+          ]
+        },
+        {
+          "name": "1758. Pavo",
+          "path": "/pages/ENTITET/obitelj/1758.%20Pavo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1758.%20Pavo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1758.%20Pavo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1758.%20Pavo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1758.%20Pavo"
+            }
+          ]
+        },
+        {
+          "name": "1766. Marko",
+          "path": "/pages/ENTITET/obitelj/1766.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1766.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1766.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1766.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1766.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1800. Mato",
+          "path": "/pages/ENTITET/obitelj/1800.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1800.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1800.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1800.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1800.%20Mato"
+            }
+          ]
+        },
+        {
+          "name": "1834. Ivan",
+          "path": "/pages/ENTITET/obitelj/1834.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1834.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1834.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1834.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1834.%20Ivan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sivša",
+      "pages": [
+        {
+          "name": "1758. Mio",
+          "path": "/pages/ENTITET/obitelj/1758.%20Mio",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1758.%20Mio"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1758.%20Mio"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1758.%20Mio"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1758.%20Mio"
+            }
+          ]
+        },
+        {
+          "name": "1780. Lovro",
+          "path": "/pages/ENTITET/obitelj/1780.%20Lovro",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1780.%20Lovro"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1780.%20Lovro"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1780.%20Lovro"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1780.%20Lovro"
+            }
+          ]
+        },
+        {
+          "name": "1812. Ivan",
+          "path": "/pages/ENTITET/obitelj/1812.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1812.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1812.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1812.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1812.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1820. Franjo",
+          "path": "/pages/ENTITET/obitelj/1820.%20Franjo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1820.%20Franjo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1820.%20Franjo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1820.%20Franjo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1820.%20Franjo"
+            }
+          ]
+        },
+        {
+          "name": "1833. Marko",
+          "path": "/pages/ENTITET/obitelj/1833.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1833.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1833.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1833.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1833.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1836. Anto",
+          "path": "/pages/ENTITET/obitelj/1836.%20Anto",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1836.%20Anto"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1836.%20Anto"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1836.%20Anto"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1836.%20Anto"
+            }
+          ]
+        },
+        {
+          "name": "1839. Ilija",
+          "path": "/pages/ENTITET/obitelj/1839.%20Ilija",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1839.%20Ilija"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1839.%20Ilija"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1839.%20Ilija"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1839.%20Ilija"
+            }
+          ]
+        },
+        {
+          "name": "1855. Marko",
+          "path": "/pages/ENTITET/obitelj/1855.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1855.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1855.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1855.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1855.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1856. Petar",
+          "path": "/pages/ENTITET/obitelj/1856.%20Petar",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1856.%20Petar"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1856.%20Petar"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1856.%20Petar"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1856.%20Petar"
+            }
+          ]
+        },
+        {
+          "name": "1858. Ivan",
+          "path": "/pages/ENTITET/obitelj/1858.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1858.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1858.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1858.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1858.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1861. Petar",
+          "path": "/pages/ENTITET/obitelj/1861.%20Petar",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1861.%20Petar"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1861.%20Petar"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1861.%20Petar"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1861.%20Petar"
+            }
+          ]
+        },
+        {
+          "name": "1861. Luka",
+          "path": "/pages/ENTITET/obitelj/1861.%20Luka",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1861.%20Luka"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1861.%20Luka"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1861.%20Luka"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1861.%20Luka"
+            }
+          ]
+        },
+        {
+          "name": "1861. Ilija",
+          "path": "/pages/ENTITET/obitelj/1861.%20Ilija",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1861.%20Ilija"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1861.%20Ilija"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1861.%20Ilija"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1861.%20Ilija"
+            }
+          ]
+        },
+        {
+          "name": "1862. Laurentius",
+          "path": "/pages/ENTITET/obitelj/1862.%20Laurentius",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1862.%20Laurentius"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1862.%20Laurentius"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1862.%20Laurentius"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1862.%20Laurentius"
+            }
+          ]
+        },
+        {
+          "name": "1865. Ilija",
+          "path": "/pages/ENTITET/obitelj/1865.%20Ilija",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1865.%20Ilija"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1865.%20Ilija"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1865.%20Ilija"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1865.%20Ilija"
+            }
+          ]
+        },
+        {
+          "name": "1867. Mato",
+          "path": "/pages/ENTITET/obitelj/1867.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1867.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1867.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1867.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1867.%20Mato"
+            }
+          ]
+        },
+        {
+          "name": "1868. Mato",
+          "path": "/pages/ENTITET/obitelj/1868.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1868.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1868.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1868.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1868.%20Mato"
+            }
+          ]
+        },
+        {
+          "name": "1882. Marko",
+          "path": "/pages/ENTITET/obitelj/1882.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1882.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1882.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1882.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1882.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1886. Mato",
+          "path": "/pages/ENTITET/obitelj/1886.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1886.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1886.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1886.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1886.%20Mato"
+            }
+          ]
+        },
+        {
+          "name": "1888. Pavo",
+          "path": "/pages/ENTITET/obitelj/1888.%20Pavo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1888.%20Pavo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1888.%20Pavo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1888.%20Pavo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1888.%20Pavo"
+            }
+          ]
+        },
+        {
+          "name": "1893. Anto",
+          "path": "/pages/ENTITET/obitelj/1893.%20Anto",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1893.%20Anto"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1893.%20Anto"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1893.%20Anto"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1893.%20Anto"
+            }
+          ]
+        },
+        {
+          "name": "1898. Anto",
+          "path": "/pages/ENTITET/obitelj/1898.%20Anto",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1898.%20Anto"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1898.%20Anto"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1898.%20Anto"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1898.%20Anto"
+            }
+          ]
+        },
+        {
+          "name": "1908. Marko",
+          "path": "/pages/ENTITET/obitelj/1908.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1908.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1908.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1908.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1908.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1909. Franjo",
+          "path": "/pages/ENTITET/obitelj/1909.%20Franjo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1909.%20Franjo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1909.%20Franjo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1909.%20Franjo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1909.%20Franjo"
+            }
+          ]
+        },
+        {
+          "name": "1909. Pejo",
+          "path": "/pages/ENTITET/obitelj/1909.%20Pejo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1909.%20Pejo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1909.%20Pejo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1909.%20Pejo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1909.%20Pejo"
+            }
+          ]
+        },
+        {
+          "name": "1911. Mijat",
+          "path": "/pages/ENTITET/obitelj/1911.%20Mijat",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1911.%20Mijat"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1911.%20Mijat"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1911.%20Mijat"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1911.%20Mijat"
+            }
+          ]
+        },
+        {
+          "name": "1913. Ivan",
+          "path": "/pages/ENTITET/obitelj/1913.%20Ivan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1913.%20Ivan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1913.%20Ivan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1913.%20Ivan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1913.%20Ivan"
+            }
+          ]
+        },
+        {
+          "name": "1913. Luka",
+          "path": "/pages/ENTITET/obitelj/1913.%20Luka",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1913.%20Luka"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1913.%20Luka"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1913.%20Luka"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1913.%20Luka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pećnik",
+      "pages": [
+        {
+          "name": "1800. Mato",
+          "path": "/pages/ENTITET/obitelj/1800.%20Mato",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1800.%20Mato"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1800.%20Mato"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1800.%20Mato"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1800.%20Mato"
+            }
+          ]
+        },
+        {
+          "name": "1873. Juro",
+          "path": "/pages/ENTITET/obitelj/1873.%20Juro",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1873.%20Juro"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1873.%20Juro"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1873.%20Juro"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1873.%20Juro"
+            }
+          ]
+        },
+        {
+          "name": "1831. Stjepan",
+          "path": "/pages/ENTITET/obitelj/1831.%20Stjepan",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1831.%20Stjepan"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1831.%20Stjepan"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1831.%20Stjepan"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1831.%20Stjepan"
+            }
+          ]
+        },
+        {
+          "name": "1832. Mijo",
+          "path": "/pages/ENTITET/obitelj/1832.%20Mijo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1832.%20Mijo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1832.%20Mijo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1832.%20Mijo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1832.%20Mijo"
+            }
+          ]
+        },
+        {
+          "name": "1839. Nikola",
+          "path": "/pages/ENTITET/obitelj/1839.%20Nikola",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1839.%20Nikola"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1839.%20Nikola"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1839.%20Nikola"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1839.%20Nikola"
+            }
+          ]
+        },
+        {
+          "name": "1851. Mato / Mijo",
+          "path": "/pages/ENTITET/obitelj/1851.%20Mato%20%2F%20Mijo",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1851.%20Mato%20%2F%20Mijo"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1851.%20Mato%20%2F%20Mijo"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1851.%20Mato%20%2F%20Mijo"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1851.%20Mato%20%2F%20Mijo"
+            }
+          ]
+        },
+        {
+          "name": "1865. Marko",
+          "path": "/pages/ENTITET/obitelj/1865.%20Marko",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1865.%20Marko"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1865.%20Marko"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1865.%20Marko"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1865.%20Marko"
+            }
+          ]
+        },
+        {
+          "name": "1884. Matija",
+          "path": "/pages/ENTITET/obitelj/1884.%20Matija",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1884.%20Matija"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1884.%20Matija"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1884.%20Matija"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1884.%20Matija"
+            }
+          ]
+        },
+        {
+          "name": "1886. Nikola",
+          "path": "/pages/ENTITET/obitelj/1886.%20Nikola",
+          "pages": [
+            {
+              "name": "Pregled",
+              "path": "/pages/ENTITET/obitelj/1886.%20Nikola"
+            },
+            {
+              "name": "Na karti",
+              "path": "/pages/ENTITET/obitelj_geo/1886.%20Nikola"
+            },
+            {
+              "name": "Stablo",
+              "path": "/pages/ENTITET/obitelj_stablo/1886.%20Nikola"
+            },
+            {
+              "name": "Zapis",
+              "path": "/pages/ENTITET/obitelj_zapis/1886.%20Nikola"
+            }
+          ]
         }
       ]
     }
   ],
   "entryPoints": [
-    "/pages/ROD/prezime/Bosna",
-    "/pages/ROD/generacije/Bosna",
-    "/pages/ROD/obitelji/Bosna",
-    "/pages/ROD/dogadjaji/Bosna",
-    "/pages/ROD/stablo/Bosna",
-    "/pages/ROD/mjesta/Bosna",
-    "/pages/ROD/migracije/Bosna",
-    "/pages/ROD/bolesti/Bosna",
-    "/pages/ROD/izvori/Bosna",
-    "/pages/ROD/zupe/Bosna",
-    "/pages/ENTITET/mjesto/Popovi%C4%87i",
-    "/pages/ENTITET/mjesto/Dragalovci",
-    "/pages/ENTITET/mjesto/Siv%C5%A1a",
-    "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
-    "/pages/ENTITET/mjesto/Miljanovci",
-    "/pages/ENTITET/mjesto/Pe%C4%87nik",
-    "/pages/ROD/popisi/Bosna",
-    "/pages/ROD/matice/Bosna",
-    "/pages/ROD/groblje/Bosna",
-    "/pages/ROD/grobovi/Bosna",
-    "/pages/ROD/katastar/Bosna",
-    "/pages/ROD/pismo/Bosna",
+    "/pages/ENTITET/obitelj/1700.%20Marko",
+    "/pages/ENTITET/obitelj/1714.%20Mato",
+    "/pages/ENTITET/obitelj/1725.%20Ivan",
+    "/pages/ENTITET/obitelj/1727.%20Petar",
+    "/pages/ENTITET/obitelj/1741.%20Matia",
+    "/pages/ENTITET/obitelj/1742.%20Stjepan",
+    "/pages/ENTITET/obitelj/1748.%20Nikola",
+    "/pages/ENTITET/obitelj/1756.%20Petar%20",
+    "/pages/ENTITET/obitelj/1758.%20Mio",
+    "/pages/ENTITET/obitelj/1758.%20Pavo",
+    "/pages/ENTITET/obitelj/1765.%20Ivan",
+    "/pages/ENTITET/obitelj/1766.%20Marko",
+    "/pages/ENTITET/obitelj/1770.%20Ivan",
+    "/pages/ENTITET/obitelj/1789.%20Marko",
+    "/pages/ENTITET/obitelj/1834.%20Ivan",
+    "/pages/ENTITET/obitelj/1775.%20Ilija",
+    "/pages/ENTITET/obitelj/1777.%20Stjepan",
+    "/pages/ENTITET/obitelj/1780.%20Lovro",
+    "/pages/ENTITET/obitelj/1800.%20Anto",
+    "/pages/ENTITET/obitelj/1765.%20Ivan",
+    "/pages/ENTITET/obitelj/1770.%20Ivan",
+    "/pages/ENTITET/obitelj/1791.%20Ilia",
+    "/pages/ENTITET/obitelj/1825.%20Petar",
+    "/pages/ENTITET/obitelj/1850.%20%3F",
+    "/pages/ENTITET/obitelj/1884.%20Marko",
+    "/pages/ENTITET/obitelj/1884.%20Stjepan",
+    "/pages/ENTITET/obitelj/1884.%20Ivan",
+    "/pages/ENTITET/obitelj/1884.%20Jerko",
+    "/pages/ENTITET/obitelj/1885.%20Josip",
+    "/pages/ENTITET/obitelj/1905.%20Ivo",
+    "/pages/ENTITET/obitelj/1905.%20Pejo",
+    "/pages/ENTITET/obitelj/1910.%20Nikola",
+    "/pages/ENTITET/obitelj/1748.%20Nikola",
+    "/pages/ENTITET/obitelj/1758.%20Pavo",
+    "/pages/ENTITET/obitelj/1766.%20Marko",
+    "/pages/ENTITET/obitelj/1800.%20Mato",
+    "/pages/ENTITET/obitelj/1834.%20Ivan",
+    "/pages/ENTITET/obitelj/1758.%20Mio",
+    "/pages/ENTITET/obitelj/1780.%20Lovro",
+    "/pages/ENTITET/obitelj/1812.%20Ivan",
+    "/pages/ENTITET/obitelj/1820.%20Franjo",
+    "/pages/ENTITET/obitelj/1833.%20Marko",
+    "/pages/ENTITET/obitelj/1836.%20Anto",
+    "/pages/ENTITET/obitelj/1839.%20Ilija",
+    "/pages/ENTITET/obitelj/1855.%20Marko",
+    "/pages/ENTITET/obitelj/1856.%20Petar",
+    "/pages/ENTITET/obitelj/1858.%20Ivan",
+    "/pages/ENTITET/obitelj/1861.%20Petar",
+    "/pages/ENTITET/obitelj/1861.%20Luka",
+    "/pages/ENTITET/obitelj/1861.%20Ilija",
+    "/pages/ENTITET/obitelj/1862.%20Laurentius",
+    "/pages/ENTITET/obitelj/1865.%20Ilija",
+    "/pages/ENTITET/obitelj/1867.%20Mato",
+    "/pages/ENTITET/obitelj/1868.%20Mato",
+    "/pages/ENTITET/obitelj/1882.%20Marko",
+    "/pages/ENTITET/obitelj/1886.%20Mato",
+    "/pages/ENTITET/obitelj/1888.%20Pavo",
+    "/pages/ENTITET/obitelj/1893.%20Anto",
+    "/pages/ENTITET/obitelj/1898.%20Anto",
+    "/pages/ENTITET/obitelj/1908.%20Marko",
+    "/pages/ENTITET/obitelj/1909.%20Franjo",
+    "/pages/ENTITET/obitelj/1909.%20Pejo",
+    "/pages/ENTITET/obitelj/1911.%20Mijat",
+    "/pages/ENTITET/obitelj/1913.%20Ivan",
+    "/pages/ENTITET/obitelj/1913.%20Luka",
+    "/pages/ENTITET/obitelj/1800.%20Mato",
+    "/pages/ENTITET/obitelj/1873.%20Juro",
+    "/pages/ENTITET/obitelj/1831.%20Stjepan",
+    "/pages/ENTITET/obitelj/1832.%20Mijo",
+    "/pages/ENTITET/obitelj/1839.%20Nikola",
+    "/pages/ENTITET/obitelj/1851.%20Mato%20%2F%20Mijo",
+    "/pages/ENTITET/obitelj/1865.%20Marko",
+    "/pages/ENTITET/obitelj/1884.%20Matija",
+    "/pages/ENTITET/obitelj/1886.%20Nikola",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_migracije/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_stablo/Popovi%C4%87i",
