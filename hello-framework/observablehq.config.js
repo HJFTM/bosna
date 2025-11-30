@@ -1,3 +1,4 @@
+
 import { CURRENT_PROJECT, data } from "./observablehq.base.js";
 import { uvodPages } from "./menu.uvod.js";
 
@@ -24,6 +25,7 @@ if (CURRENT_PROJECT === "uvod") {
   pages = zapisiPages; 
 } else {
   pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
+   pages = obiteljiPages;
 }
 
 let pages_all = uvodPages
