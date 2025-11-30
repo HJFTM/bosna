@@ -5,7 +5,7 @@ import {
 from "./observablehq.base.js";
 
 
-const obiteljiBH = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
+export const obiteljiBH = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
 // const obiteljiST = generirajObiteljiPoMjestu(data.obitelj, "Stupnik");
 // const obiteljiDU = generirajObiteljiPoMjestu(data.obitelj, "Dubrovnik");
 
