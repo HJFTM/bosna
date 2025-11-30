@@ -2,20 +2,20 @@
 import { CURRENT_PROJECT, data} from "./observablehq.base.js";
 import { generirajMjestaOdObitelji} from "./menu.rodovi.js";
 
-const mjestaBH = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
-const menuBH = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
+const mjesta = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
+const menu = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
 
 export const mjestaMenu = [
   {
     name: "Rod Bosna",
     pages: [
-      ...menuBH,
+      ...menu,
     ]
   },  
 ];
 
 export const mjestaPages = [
-  ...mjestaBH, 
+  ...mjesta, 
 ];
 
 export function generirajMjestaOdObiteljiSVE(obitelji, rod = "Bosna") {
