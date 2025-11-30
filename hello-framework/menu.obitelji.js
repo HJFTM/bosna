@@ -1,48 +1,21 @@
 
 
-import { 
-  CURRENT_PROJECT, data} 
-from "./observablehq.base.js";
-
+import {CURRENT_PROJECT, data} from "./observablehq.base.js";
 
 export const obiteljiBH = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
-// const obiteljiST = generirajObiteljiPoMjestu(data.obitelj, "Stupnik");
-// const obiteljiDU = generirajObiteljiPoMjestu(data.obitelj, "Dubrovnik");
-
 const obiteljiGEOBH = generirajObiteljiGEOpoMjestu(data.obitelj, "Bosna");
-// const obiteljiGEOST = generirajObiteljiGEOpoMjestu(data.obitelj, "Stupnik");
-// const obiteljiGEODU = generirajObiteljiGEOpoMjestu(data.obitelj, "Dubrovnik");
-
 const obiteljiZapisBH = generirajObiteljiZapis(data.obitelj, "Bosna");
-// const obiteljiZapisST = generirajObiteljiZapis(data.obitelj, "Stupnik");
-// const obiteljiZapisDU = generirajObiteljiZapis(data.obitelj, "Dubrovnik");
-
 const obiteljiStabloBH = generirajObiteljiStablo(data.obitelj, "Bosna");
-// const obiteljiStabloST = generirajObiteljiStablo(data.obitelj, "Stupnik");
-// const obiteljiStabloDU = generirajObiteljiStablo(data.obitelj, "Dubrovnik");
 
 export const obiteljiPages = [
   ...obiteljiBH, 
-  // ...obiteljiST, 
-  // ...obiteljiDU,
- 
- // {
- //   name: "------",
- //   pages: [
- //     { name: "Sadržaj", path: "/pages/KONCEPT/Navigacija" }
- //   ]
- // }
 ];
 
 export const obiteljiPagesAll = [
   ...obiteljiBH, 
-  // ...obiteljiST, ...obiteljiDU,
   ...obiteljiGEOBH, 
-  // ...obiteljiGEOST, ...obiteljiGEODU,
   ...obiteljiStabloBH, 
-  // ...obiteljiStabloST, ...obiteljiStabloDU,
   ...obiteljiZapisBH, 
-  //...obiteljiZapisST, ...obiteljiZapisDU
 ];
 
 export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
