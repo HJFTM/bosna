@@ -1,7 +1,6 @@
 <div id="observablehq-header-965fd9bd"></div>
 <div id="observablehq-obitelji_plot2-965fd9bd"></div>
 <div id="observablehq-opis-965fd9bd"></div>
-<p>Credit: <a href="https://observablehq.com/d/e628b16f87f46c0c">Obitelji (E) by FTM</a></p>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
