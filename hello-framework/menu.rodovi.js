@@ -1,3 +1,4 @@
+import { obiteljiBH } from "./menu.obitelji.js";
 
 export function getRodEntitetiIzvoriPages(rod, obitelji) {
  // const obiteljiPoMjestuPages = generirajObiteljiPoMjestu(obitelji, rod);
@@ -23,6 +24,17 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
       name: "Mjesta",
       pages: [...mjestaPages]
     },
+    {
+    name: "Obitelji",
+    pages: [
+      {
+        name: "Bosna",
+        pages: obiteljiBH   // 👈 tu ubacuješ već generirani meni
+      },
+      // ovdje kasnije možeš dodati "Stupnik", "Dubrovnik"...
+    ]
+   },
+
     {
       name: "Izvori",
       pages: [
