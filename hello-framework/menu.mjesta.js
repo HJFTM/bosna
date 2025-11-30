@@ -3,55 +3,19 @@ import { CURRENT_PROJECT, data} from "./observablehq.base.js";
 import { generirajMjestaOdObitelji} from "./menu.rodovi.js";
 
 const mjestaBH = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
-// const mjestaST = generirajMjestaOdObiteljiSVE(data.obitelj, "Stupnik");
-// const mjestaDU = generirajMjestaOdObiteljiSVE(data.obitelj, "Dubrovnik");
-
 const menuBH = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
-// const menuST = generirajMjestaOdObitelji(data.obitelj, "Stupnik");
-// const menuDU = generirajMjestaOdObitelji(data.obitelj, "Dubrovnik");
 
 export const mjestaMenu = [
-  //...mjestaST, ...mjestaDU,
   {
     name: "Rod Bosna",
     pages: [
       ...menuBH,
     ]
   },  
-  /*
-  {
-    name: "Rod Stupnik (Austrougarska)",
-    pages: [
-      ...menuST,
-    ]
-  }, 
-  {
-    name: "Rod Dubrovnik",
-    pages: [
-      ...menuDU,
-    ]
-  },   
-  {
-    name: "------",
-    pages: [
-      { name: "Sadržaj", path: "/pages/KONCEPT/Navigacija" }
-    ]
-  }
-  */
 ];
 
 export const mjestaPages = [
   ...mjestaBH, 
-  // ...mjestaST, 
-  // ...mjestaDU,
-
-  
-  {
-    name: "------",
-    pages: [
-      { name: "Sadržaj", path: "/pages/KONCEPT/Navigacija" }
-    ]
-  }
 ];
 
 export function generirajMjestaOdObiteljiSVE(obitelji, rod = "Bosna") {
