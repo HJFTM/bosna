@@ -24,11 +24,12 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
       name: "Mjesta",
       pages: [...mjestaPages]
     },
+   /*
     {
     name: "Obitelji",
     pages: obiteljiPages
    },
-
+*/
     {
       name: "Izvori",
       pages: [
