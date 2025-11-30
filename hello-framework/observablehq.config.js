@@ -11,7 +11,7 @@ let pages;
 
 pages = uvodPages;
 
-if (CURRENT_PROJECT === "Uvod") {
+if (CURRENT_PROJECT === "uvod") {
   pages = uvodPages;
   pages = obiteljiPages;
 } else if (CURRENT_PROJECT === "mjesta") {
