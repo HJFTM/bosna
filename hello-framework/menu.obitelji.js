@@ -82,8 +82,6 @@ export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
   }));
 }
 
-
-
 export function generirajObiteljiGEOpoMjestu(data, rod = "Bosna") {
   const mjestaSet = new Set();
 
@@ -118,7 +116,6 @@ export function generirajObiteljiGEOpoMjestu(data, rod = "Bosna") {
     pages: obitelji
   }));
 }
-
 
 export function generirajObiteljiZapis(data, rod = "Bosna") {
   const mjestaSet = new Set();
