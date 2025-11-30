@@ -1,21 +1,19 @@
-
-
 import {CURRENT_PROJECT, data} from "./observablehq.base.js";
 
-export const obiteljiBH = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
-const obiteljiGEOBH = generirajObiteljiGEOpoMjestu(data.obitelj, "Bosna");
-const obiteljiZapisBH = generirajObiteljiZapis(data.obitelj, "Bosna");
-const obiteljiStabloBH = generirajObiteljiStablo(data.obitelj, "Bosna");
+export const obitelji = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
+const obiteljiGEO = generirajObiteljiGEOpoMjestu(data.obitelj, "Bosna");
+const obiteljiZapis = generirajObiteljiZapis(data.obitelj, "Bosna");
+const obiteljiStablo = generirajObiteljiStablo(data.obitelj, "Bosna");
 
 export const obiteljiPages = [
-  ...obiteljiBH, 
+  ...obitelji, 
 ];
 
 export const obiteljiPagesAll = [
-  ...obiteljiBH, 
-  ...obiteljiGEOBH, 
-  ...obiteljiStabloBH, 
-  ...obiteljiZapisBH, 
+  ...obitelji, 
+  ...obiteljiGEO, 
+  ...obiteljiStablo, 
+  ...obiteljiZapis, 
 ];
 
 export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
