@@ -7,7 +7,7 @@ const menu = generirajMjestaOdObiteljiSVE(data.obitelj, "Bosna");
 
 export const mjestaMenu = [
   {
-    name: "Rod Bosna",
+    name: "Mjesta",
     pages: [
       ...menu,
     ]
