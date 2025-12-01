@@ -24,8 +24,8 @@ if (CURRENT_PROJECT === "uvod") {
 } else if (CURRENT_PROJECT === "zapisi") {
   pages = zapisiPages; 
 } else {
-  pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
-  pages = [...uvodPages, ...mjestaMenu, ...obiteljiPages, ...zapisiPages, ...izvoriPages]
+  let rod_pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
+  pages = [...rod_pages, ...mjestaMenu, ...obiteljiPages, ...zapisiPages, ...izvoriPages]
 
 }
 
