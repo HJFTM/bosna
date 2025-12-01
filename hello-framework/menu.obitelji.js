@@ -75,7 +75,7 @@ export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
 
   // 5) top-level: mjesta
   return Object.entries(mapaMjesta).map(([mjesto, obitelji]) => ({
-    name: mjesto,
+    name: "Obitelji: " + mjesto,
     pages: obitelji
   }));
 }
