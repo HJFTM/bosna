@@ -2,6 +2,120 @@
   "project": "Bosna",
   "pages": [
     {
+      "name": "Predgovor",
+      "pages": [
+        {
+          "name": "Naslovnica",
+          "path": "/pages/0 Uvod/1_Naslovnica"
+        },
+        {
+          "name": "Izbornik",
+          "path": "/pages/izbornik"
+        },
+        {
+          "name": "Mapa",
+          "path": "/pages/0 Uvod/2_Geomapa"
+        }
+      ]
+    },
+    {
+      "name": "Prezime",
+      "pages": [
+        {
+          "name": "Prezime Jular-ić",
+          "path": "/pages/1_Jularic/01.1.prezime_ilaric"
+        },
+        {
+          "name": "Jularić - Ilarić",
+          "path": "/pages/1_Jularic/01.2.evolucija"
+        },
+        {
+          "name": "Ilarić",
+          "path": "/pages/0 Uvod/3_Jularic"
+        }
+      ]
+    },
+    {
+      "name": "Rodovi",
+      "pages": [
+        {
+          "name": "Rodovi Ilarić",
+          "path": "/pages/KONCEPT/Rodovi_K"
+        },
+        {
+          "name": "Župe",
+          "path": "/pages/KONCEPT/Zupe_K"
+        },
+        {
+          "name": "Mjesta",
+          "path": "/pages/KONCEPT/Mjesta_K"
+        }
+      ]
+    },
+    {
+      "name": "Obitelji",
+      "pages": [
+        {
+          "name": "Generacije",
+          "path": "/pages/KONCEPT/Generacije_K"
+        },
+        {
+          "name": "Obitelji",
+          "path": "/pages/KONCEPT/Obitelji_K"
+        },
+        {
+          "name": "Brakovi",
+          "path": "/pages/KONCEPT/Brakovi_K"
+        },
+        {
+          "name": "Povezane obitelji",
+          "path": "/pages/KONCEPT/Obitelji_povezane_K"
+        },
+        {
+          "name": "Događaji - zapisi",
+          "path": "/pages/KONCEPT/Zapisi_K"
+        },
+        {
+          "name": "Bolesti",
+          "path": "/pages/KONCEPT/Bolesti_K"
+        },
+        {
+          "name": "Groblja",
+          "path": "/pages/KONCEPT/Groblje_K"
+        }
+      ]
+    },
+    {
+      "name": "Migracije",
+      "pages": [
+        {
+          "name": "Vtrste",
+          "path": "/pages/KONCEPT/Migracije_K"
+        },
+        {
+          "name": "Individualne",
+          "path": "/pages/KONCEPT/Migracije_individualne_K"
+        },
+        {
+          "name": "Masovne",
+          "path": "/pages/KONCEPT/Migracije_masovne_K"
+        }
+      ]
+    },
+    {
+      "name": "Ostalo",
+      "pages": [
+        {
+          "name": "Srodna prezimena",
+          "path": "/pages/1_Prezime/prezime_srodno"
+        },
+        {
+          "name": "Države",
+          "path": "/pages/KONCEPT/Drzava_K"
+        }
+      ]
+    },
+    {
       "name": "Rod Bosna",
       "pages": [
         {
@@ -1891,9 +2005,310 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Komušina (11)",
+      "pages": [
+        {
+          "name": "KOM.R.1708-1723",
+          "path": "/pages/ENTITET/matica/KOM.R.1708-1723",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.R.1708-1723"
+        },
+        {
+          "name": "KOM.R.1719-1741",
+          "path": "/pages/ENTITET/matica/KOM.R.1719-1741",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.R.1719-1741"
+        },
+        {
+          "name": "KOM.V 1741-1757",
+          "path": "/pages/ENTITET/matica/KOM.V%201741-1757",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.V%201741-1757"
+        },
+        {
+          "name": "KOM.R.1742-1757",
+          "path": "/pages/ENTITET/matica/KOM.R.1742-1757",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.R.1742-1757"
+        },
+        {
+          "name": "KOM.Z.1742",
+          "path": "/pages/ENTITET/matica/KOM.Z.1742",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.Z.1742"
+        },
+        {
+          "name": "KOM.U 1745-1757",
+          "path": "/pages/ENTITET/matica/KOM.U%201745-1757",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.U%201745-1757"
+        },
+        {
+          "name": "KOM.R 1756-1766",
+          "path": "/pages/ENTITET/matica/KOM.R%201756-1766",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.R%201756-1766"
+        },
+        {
+          "name": "KOM.U 1757-1766",
+          "path": "/pages/ENTITET/matica/KOM.U%201757-1766",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.U%201757-1766"
+        },
+        {
+          "name": "KOM.V 1757-1766",
+          "path": "/pages/ENTITET/matica/KOM.V%201757-1766",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.V%201757-1766"
+        },
+        {
+          "name": "KOM.V 1776-1805",
+          "path": "/pages/ENTITET/matica/KOM.V%201776-1805",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.V%201776-1805"
+        },
+        {
+          "name": "KOM.R 1798-1852",
+          "path": "/pages/ENTITET/matica/KOM.R%201798-1852",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOM.R%201798-1852"
+        }
+      ]
+    },
+    {
+      "name": "Koraće (2)",
+      "pages": [
+        {
+          "name": "KOR.U.1784-1840",
+          "path": "/pages/ENTITET/matica/KOR.U.1784-1840",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOR.U.1784-1840"
+        },
+        {
+          "name": "KOR.R.1884-1899",
+          "path": "/pages/ENTITET/matica/KOR.R.1884-1899",
+          "geo_path": "/pages/ENTITET/matica_zapisi/KOR.R.1884-1899"
+        }
+      ]
+    },
+    {
+      "name": "Pećnik (2)",
+      "pages": [
+        {
+          "name": "PEC.R.1884-1902",
+          "path": "/pages/ENTITET/matica/PEC.R.1884-1902",
+          "geo_path": "/pages/ENTITET/matica_zapisi/PEC.R.1884-1902"
+        },
+        {
+          "name": "PEC.U.1886-1905",
+          "path": "/pages/ENTITET/matica/PEC.U.1886-1905",
+          "geo_path": "/pages/ENTITET/matica_zapisi/PEC.U.1886-1905"
+        }
+      ]
+    },
+    {
+      "name": "Plehan (3)",
+      "pages": [
+        {
+          "name": "PLE.R.1763-1768",
+          "path": "/pages/ENTITET/matica/PLE.R.1763-1768",
+          "geo_path": "/pages/ENTITET/matica_zapisi/PLE.R.1763-1768"
+        },
+        {
+          "name": "PLE.R.1769-1805",
+          "path": "/pages/ENTITET/matica/PLE.R.1769-1805",
+          "geo_path": "/pages/ENTITET/matica_zapisi/PLE.R.1769-1805"
+        },
+        {
+          "name": "PLE.U.1763-1771",
+          "path": "/pages/ENTITET/matica/PLE.U.1763-1771",
+          "geo_path": "/pages/ENTITET/matica_zapisi/PLE.U.1763-1771"
+        }
+      ]
+    },
+    {
+      "name": "Podvučjak (5)",
+      "pages": [
+        {
+          "name": "POD.R.1830-1884",
+          "path": "/pages/ENTITET/matica/POD.R.1830-1884",
+          "geo_path": "/pages/ENTITET/matica_zapisi/POD.R.1830-1884"
+        },
+        {
+          "name": "POD.U.1823-1843",
+          "path": "/pages/ENTITET/matica/POD.U.1823-1843",
+          "geo_path": "/pages/ENTITET/matica_zapisi/POD.U.1823-1843"
+        },
+        {
+          "name": "POD.V.1830-1884",
+          "path": "/pages/ENTITET/matica/POD.V.1830-1884",
+          "geo_path": "/pages/ENTITET/matica_zapisi/POD.V.1830-1884"
+        },
+        {
+          "name": "POD.Z.1837-1882",
+          "path": "/pages/ENTITET/matica/POD.Z.1837-1882",
+          "geo_path": "/pages/ENTITET/matica_zapisi/POD.Z.1837-1882"
+        },
+        {
+          "name": "POD.U.1830-1884",
+          "path": "/pages/ENTITET/matica/POD.U.1830-1884",
+          "geo_path": "/pages/ENTITET/matica_zapisi/POD.U.1830-1884"
+        }
+      ]
+    },
+    {
+      "name": "Sivša (4)",
+      "pages": [
+        {
+          "name": "SIV.U.1784-1830",
+          "path": "/pages/ENTITET/matica/SIV.U.1784-1830",
+          "geo_path": "/pages/ENTITET/matica_zapisi/SIV.U.1784-1830"
+        },
+        {
+          "name": "SIV.U.1830-1883",
+          "path": "/pages/ENTITET/matica/SIV.U.1830-1883",
+          "geo_path": "/pages/ENTITET/matica_zapisi/SIV.U.1830-1883"
+        },
+        {
+          "name": "SIV.R.1857-1883",
+          "path": "/pages/ENTITET/matica/SIV.R.1857-1883",
+          "geo_path": "/pages/ENTITET/matica_zapisi/SIV.R.1857-1883"
+        },
+        {
+          "name": "SIV.R.1884-1921",
+          "path": "/pages/ENTITET/matica/SIV.R.1884-1921",
+          "geo_path": "/pages/ENTITET/matica_zapisi/SIV.R.1884-1921"
+        }
+      ]
+    },
+    {
+      "name": "Župe Bosna",
+      "pages": [
+        {
+          "name": "1623. Komušina",
+          "label": "Komušina (do 1623)",
+          "value": "Komušina",
+          "path": "/pages/ENTITET/zupa/1623.%20Komu%C5%A1ina",
+          "pathEncoded2": "/pages/ENTITET/zupa/1623.%2520Komu%25C5%25A1ina",
+          "minGodina": 1623,
+          "maxGodina": 1623,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1623. Radunjevac / Vasiljevo",
+          "label": "Radunjevac / Vasiljevo (do 1623)",
+          "value": "Radunjevac / Vasiljevo",
+          "path": "/pages/ENTITET/zupa/1623.%20Radunjevac%20%2F%20Vasiljevo",
+          "pathEncoded2": "/pages/ENTITET/zupa/1623.%2520Radunjevac%2520%252F%2520Vasiljevo",
+          "minGodina": 1623,
+          "maxGodina": 1623,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1742. Plehan",
+          "label": "Plehan (do 1742)",
+          "value": "Plehan",
+          "path": "/pages/ENTITET/zupa/1742.%20Plehan",
+          "pathEncoded2": "/pages/ENTITET/zupa/1742.%2520Plehan",
+          "minGodina": 1742,
+          "maxGodina": 1742,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1768. Podvučjak",
+          "label": "Podvučjak (do 1768)",
+          "value": "Podvučjak",
+          "path": "/pages/ENTITET/zupa/1768.%20Podvu%C4%8Djak",
+          "pathEncoded2": "/pages/ENTITET/zupa/1768.%2520Podvu%25C4%258Djak",
+          "minGodina": 1768,
+          "maxGodina": 1768,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1784. Sivša",
+          "label": "Sivša (do 1784)",
+          "value": "Sivša",
+          "path": "/pages/ENTITET/zupa/1784.%20Siv%C5%A1a",
+          "pathEncoded2": "/pages/ENTITET/zupa/1784.%2520Siv%25C5%25A1a",
+          "minGodina": 1784,
+          "maxGodina": 1784,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1855. Gornja Dubica",
+          "label": "Gornja Dubica (do 1855)",
+          "value": "Gornja Dubica",
+          "path": "/pages/ENTITET/zupa/1855.%20Gornja%20Dubica",
+          "pathEncoded2": "/pages/ENTITET/zupa/1855.%2520Gornja%2520Dubica",
+          "minGodina": 1855,
+          "maxGodina": 1855,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1855. Potočani",
+          "label": "Potočani (do 1855)",
+          "value": "Potočani",
+          "path": "/pages/ENTITET/zupa/1855.%20Poto%C4%8Dani",
+          "pathEncoded2": "/pages/ENTITET/zupa/1855.%2520Poto%25C4%258Dani",
+          "minGodina": 1855,
+          "maxGodina": 1855,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1859. Koraće",
+          "label": "Koraće (do 1859)",
+          "value": "Koraće",
+          "path": "/pages/ENTITET/zupa/1859.%20Kora%C4%87e",
+          "pathEncoded2": "/pages/ENTITET/zupa/1859.%2520Kora%25C4%2587e",
+          "minGodina": 1859,
+          "maxGodina": 1859,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1863. Kulaši",
+          "label": "Kulaši (do 1863)",
+          "value": "Kulaši",
+          "path": "/pages/ENTITET/zupa/1863.%20Kula%C5%A1i",
+          "pathEncoded2": "/pages/ENTITET/zupa/1863.%2520Kula%25C5%25A1i",
+          "minGodina": 1863,
+          "maxGodina": 1863,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1879. Pećnik",
+          "label": "Pećnik (do 1879)",
+          "value": "Pećnik",
+          "path": "/pages/ENTITET/zupa/1879.%20Pe%C4%87nik",
+          "pathEncoded2": "/pages/ENTITET/zupa/1879.%2520Pe%25C4%2587nik",
+          "minGodina": 1879,
+          "maxGodina": 1879,
+          "drzava": "Bosna"
+        },
+        {
+          "name": "1970. Dragalovci",
+          "label": "Dragalovci (do 1970)",
+          "value": "Dragalovci",
+          "path": "/pages/ENTITET/zupa/1970.%20Dragalovci",
+          "pathEncoded2": "/pages/ENTITET/zupa/1970.%2520Dragalovci",
+          "minGodina": 1970,
+          "maxGodina": 1970,
+          "drzava": "Bosna"
+        }
+      ]
     }
   ],
   "entryPoints": [
+    "/pages/0 Uvod/1_Naslovnica",
+    "/pages/izbornik",
+    "/pages/0 Uvod/2_Geomapa",
+    "/pages/1_Jularic/01.1.prezime_ilaric",
+    "/pages/1_Jularic/01.2.evolucija",
+    "/pages/0 Uvod/3_Jularic",
+    "/pages/KONCEPT/Rodovi_K",
+    "/pages/KONCEPT/Zupe_K",
+    "/pages/KONCEPT/Mjesta_K",
+    "/pages/KONCEPT/Generacije_K",
+    "/pages/KONCEPT/Obitelji_K",
+    "/pages/KONCEPT/Brakovi_K",
+    "/pages/KONCEPT/Obitelji_povezane_K",
+    "/pages/KONCEPT/Zapisi_K",
+    "/pages/KONCEPT/Bolesti_K",
+    "/pages/KONCEPT/Groblje_K",
+    "/pages/KONCEPT/Migracije_K",
+    "/pages/KONCEPT/Migracije_individualne_K",
+    "/pages/KONCEPT/Migracije_masovne_K",
+    "/pages/1_Prezime/prezime_srodno",
+    "/pages/KONCEPT/Drzava_K",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
     "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
@@ -1974,6 +2389,44 @@
     "/pages/ENTITET/obitelj/1865.%20Marko",
     "/pages/ENTITET/obitelj/1884.%20Matija",
     "/pages/ENTITET/obitelj/1886.%20Nikola",
+    "/pages/ENTITET/matica/KOM.R.1708-1723",
+    "/pages/ENTITET/matica/KOM.R.1719-1741",
+    "/pages/ENTITET/matica/KOM.V%201741-1757",
+    "/pages/ENTITET/matica/KOM.R.1742-1757",
+    "/pages/ENTITET/matica/KOM.Z.1742",
+    "/pages/ENTITET/matica/KOM.U%201745-1757",
+    "/pages/ENTITET/matica/KOM.R%201756-1766",
+    "/pages/ENTITET/matica/KOM.U%201757-1766",
+    "/pages/ENTITET/matica/KOM.V%201757-1766",
+    "/pages/ENTITET/matica/KOM.V%201776-1805",
+    "/pages/ENTITET/matica/KOM.R%201798-1852",
+    "/pages/ENTITET/matica/KOR.U.1784-1840",
+    "/pages/ENTITET/matica/KOR.R.1884-1899",
+    "/pages/ENTITET/matica/PEC.R.1884-1902",
+    "/pages/ENTITET/matica/PEC.U.1886-1905",
+    "/pages/ENTITET/matica/PLE.R.1763-1768",
+    "/pages/ENTITET/matica/PLE.R.1769-1805",
+    "/pages/ENTITET/matica/PLE.U.1763-1771",
+    "/pages/ENTITET/matica/POD.R.1830-1884",
+    "/pages/ENTITET/matica/POD.U.1823-1843",
+    "/pages/ENTITET/matica/POD.V.1830-1884",
+    "/pages/ENTITET/matica/POD.Z.1837-1882",
+    "/pages/ENTITET/matica/POD.U.1830-1884",
+    "/pages/ENTITET/matica/SIV.U.1784-1830",
+    "/pages/ENTITET/matica/SIV.U.1830-1883",
+    "/pages/ENTITET/matica/SIV.R.1857-1883",
+    "/pages/ENTITET/matica/SIV.R.1884-1921",
+    "/pages/ENTITET/zupa/1623.%20Komu%C5%A1ina",
+    "/pages/ENTITET/zupa/1623.%20Radunjevac%20%2F%20Vasiljevo",
+    "/pages/ENTITET/zupa/1742.%20Plehan",
+    "/pages/ENTITET/zupa/1768.%20Podvu%C4%8Djak",
+    "/pages/ENTITET/zupa/1784.%20Siv%C5%A1a",
+    "/pages/ENTITET/zupa/1855.%20Gornja%20Dubica",
+    "/pages/ENTITET/zupa/1855.%20Poto%C4%8Dani",
+    "/pages/ENTITET/zupa/1859.%20Kora%C4%87e",
+    "/pages/ENTITET/zupa/1863.%20Kula%C5%A1i",
+    "/pages/ENTITET/zupa/1879.%20Pe%C4%87nik",
+    "/pages/ENTITET/zupa/1970.%20Dragalovci",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_migracije/Popovi%C4%87i",
     "/pages/ENTITET/mjesto_stablo/Popovi%C4%87i",
