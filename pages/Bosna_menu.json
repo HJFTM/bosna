@@ -2,116 +2,105 @@
   "project": "Bosna",
   "pages": [
     {
-      "name": "Predgovor",
+      "name": "Uvod",
       "pages": [
         {
-          "name": "Naslovnica",
-          "path": "/pages/0 Uvod/1_Naslovnica"
+          "name": "  Prezime",
+          "path": "/pages/ROD/prezime/Bosna"
         },
         {
-          "name": "Izbornik",
-          "path": "/pages/izbornik"
+          "name": "  Generacije",
+          "path": "/pages/ROD/generacije/Bosna"
         },
         {
-          "name": "Mapa",
-          "path": "/pages/0 Uvod/2_Geomapa"
+          "name": "  Obitelji",
+          "path": "/pages/ROD/obitelji/Bosna"
+        },
+        {
+          "name": "  Događaji",
+          "path": "/pages/ROD/dogadjaji/Bosna"
+        },
+        {
+          "name": "  Stablo",
+          "path": "/pages/ROD/stablo/Bosna"
+        },
+        {
+          "name": "  Mjesta",
+          "path": "/pages/ROD/mjesta/Bosna"
+        },
+        {
+          "name": "  Migracije",
+          "path": "/pages/ROD/migracije/Bosna"
+        },
+        {
+          "name": "  Bolesti",
+          "path": "/pages/ROD/bolesti/Bosna"
+        },
+        {
+          "name": "  Izvori*",
+          "path": "/pages/ROD/izvori/Bosna"
+        },
+        {
+          "name": "  Župe",
+          "path": "/pages/ROD/zupe/Bosna"
         }
       ]
     },
     {
-      "name": "Prezime",
+      "name": "Mjesta",
       "pages": [
         {
-          "name": "Prezime Jular-ić",
-          "path": "/pages/1_Jularic/01.1.prezime_ilaric"
+          "name": "1700. Popovići",
+          "path": "/pages/ENTITET/mjesto/Popovi%C4%87i"
         },
         {
-          "name": "Jularić - Ilarić",
-          "path": "/pages/1_Jularic/01.2.evolucija"
+          "name": "1748. Dragalovci",
+          "path": "/pages/ENTITET/mjesto/Dragalovci"
         },
         {
-          "name": "Ilarić",
-          "path": "/pages/0 Uvod/3_Jularic"
+          "name": "1758. Sivša",
+          "path": "/pages/ENTITET/mjesto/Siv%C5%A1a"
+        },
+        {
+          "name": "1765. Dubočac",
+          "path": "/pages/ENTITET/mjesto/Dubo%C4%8Dac"
+        },
+        {
+          "name": "1775. Miljanovci",
+          "path": "/pages/ENTITET/mjesto/Miljanovci"
+        },
+        {
+          "name": "1810. Pećnik",
+          "path": "/pages/ENTITET/mjesto/Pe%C4%87nik"
         }
       ]
     },
     {
-      "name": "Rodovi",
+      "name": "Izvori",
       "pages": [
         {
-          "name": "Rodovi Ilarić",
-          "path": "/pages/KONCEPT/Rodovi_K"
+          "name": "  Popisi",
+          "path": "/pages/ROD/popisi/Bosna"
         },
         {
-          "name": "Župe",
-          "path": "/pages/KONCEPT/Zupe_K"
+          "name": "  Matice",
+          "path": "/pages/ROD/matice/Bosna"
         },
         {
-          "name": "Mjesta",
-          "path": "/pages/KONCEPT/Mjesta_K"
-        }
-      ]
-    },
-    {
-      "name": "Obitelji",
-      "pages": [
-        {
-          "name": "Generacije",
-          "path": "/pages/KONCEPT/Generacije_K"
+          "name": "  Groblje",
+          "path": "/pages/ROD/groblje/Bosna"
         },
         {
-          "name": "Obitelji",
-          "path": "/pages/KONCEPT/Obitelji_K"
+          "name": "  Grobovi",
+          "path": "/pages/ROD/grobovi/Bosna"
         },
         {
-          "name": "Brakovi",
-          "path": "/pages/KONCEPT/Brakovi_K"
+          "name": "  Katastar",
+          "path": "/pages/ROD/katastar/Bosna"
         },
         {
-          "name": "Povezane obitelji",
-          "path": "/pages/KONCEPT/Obitelji_povezane_K"
-        },
-        {
-          "name": "Događaji - zapisi",
-          "path": "/pages/KONCEPT/Zapisi_K"
-        },
-        {
-          "name": "Bolesti",
-          "path": "/pages/KONCEPT/Bolesti_K"
-        },
-        {
-          "name": "Groblja",
-          "path": "/pages/KONCEPT/Groblje_K"
-        }
-      ]
-    },
-    {
-      "name": "Migracije",
-      "pages": [
-        {
-          "name": "Vtrste",
-          "path": "/pages/KONCEPT/Migracije_K"
-        },
-        {
-          "name": "Individualne",
-          "path": "/pages/KONCEPT/Migracije_individualne_K"
-        },
-        {
-          "name": "Masovne",
-          "path": "/pages/KONCEPT/Migracije_masovne_K"
-        }
-      ]
-    },
-    {
-      "name": "Ostalo",
-      "pages": [
-        {
-          "name": "Srodna prezimena",
-          "path": "/pages/1_Prezime/prezime_srodno"
-        },
-        {
-          "name": "Države",
-          "path": "/pages/KONCEPT/Drzava_K"
+          "name": "  Pismo / Jezik",
+          "path": "/pages/ROD/pismo/Bosna"
         }
       ]
     },
@@ -2288,27 +2277,28 @@
     }
   ],
   "entryPoints": [
-    "/pages/0 Uvod/1_Naslovnica",
-    "/pages/izbornik",
-    "/pages/0 Uvod/2_Geomapa",
-    "/pages/1_Jularic/01.1.prezime_ilaric",
-    "/pages/1_Jularic/01.2.evolucija",
-    "/pages/0 Uvod/3_Jularic",
-    "/pages/KONCEPT/Rodovi_K",
-    "/pages/KONCEPT/Zupe_K",
-    "/pages/KONCEPT/Mjesta_K",
-    "/pages/KONCEPT/Generacije_K",
-    "/pages/KONCEPT/Obitelji_K",
-    "/pages/KONCEPT/Brakovi_K",
-    "/pages/KONCEPT/Obitelji_povezane_K",
-    "/pages/KONCEPT/Zapisi_K",
-    "/pages/KONCEPT/Bolesti_K",
-    "/pages/KONCEPT/Groblje_K",
-    "/pages/KONCEPT/Migracije_K",
-    "/pages/KONCEPT/Migracije_individualne_K",
-    "/pages/KONCEPT/Migracije_masovne_K",
-    "/pages/1_Prezime/prezime_srodno",
-    "/pages/KONCEPT/Drzava_K",
+    "/pages/ROD/prezime/Bosna",
+    "/pages/ROD/generacije/Bosna",
+    "/pages/ROD/obitelji/Bosna",
+    "/pages/ROD/dogadjaji/Bosna",
+    "/pages/ROD/stablo/Bosna",
+    "/pages/ROD/mjesta/Bosna",
+    "/pages/ROD/migracije/Bosna",
+    "/pages/ROD/bolesti/Bosna",
+    "/pages/ROD/izvori/Bosna",
+    "/pages/ROD/zupe/Bosna",
+    "/pages/ENTITET/mjesto/Popovi%C4%87i",
+    "/pages/ENTITET/mjesto/Dragalovci",
+    "/pages/ENTITET/mjesto/Siv%C5%A1a",
+    "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
+    "/pages/ENTITET/mjesto/Miljanovci",
+    "/pages/ENTITET/mjesto/Pe%C4%87nik",
+    "/pages/ROD/popisi/Bosna",
+    "/pages/ROD/matice/Bosna",
+    "/pages/ROD/groblje/Bosna",
+    "/pages/ROD/grobovi/Bosna",
+    "/pages/ROD/katastar/Bosna",
+    "/pages/ROD/pismo/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
     "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
