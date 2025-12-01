@@ -46,7 +46,7 @@ export function generirajMaticePoZupi(data, rod = "Bosna") {
       .map(({ godina, ...rest }) => rest); // makni "godina" iz rezultata
 
     return {
-      name: `${zupa} (${maticeList.length})`,
+      name: "Matice: " + `${zupa} (${maticeList.length})`,
       pages: maticeList
     };
   });
