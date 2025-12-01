@@ -25,7 +25,8 @@ if (CURRENT_PROJECT === "uvod") {
   pages = zapisiPages; 
 } else {
   pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
-   pages = mjestaMenu;
+  pages = [... mjestaMenu, ... obiteljiPages]
+
 }
 
 let pages_all = uvodPages
