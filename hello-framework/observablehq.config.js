@@ -43,6 +43,13 @@ const entryPoints = [
   ...pages.flatMap(p => (p.pages ? p.pages : [p])).map(p => p.path),
   ...mjestaPages.flatMap(p => (p.pages ? p.pages : [p])).map(p => p.path),
   ...obiteljiPagesAll.flatMap(p => (p.pages ? p.pages : [p])).map(p => p.path),
+
+  // ROD PODSTRANICE
+  data.obitelj
+    .filter(o => o.ROD && o.ROD != null)
+    .flatMap(o => [
+      `/pages/ROD/prezime_obitelj/${encodeURIComponent(o.ROD)}`
+    ]),
   
   // Ručno dodajemo i [obitelj] podstranice
   data.obitelj
