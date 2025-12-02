@@ -107,7 +107,8 @@ export const dynamicPaths = () => {
     `/pages/ROD/prezime_prvi_zapis/${encodeURIComponent(rod)}`,
     `/pages/ROD/generacije_1/${encodeURIComponent(rod)}`,
     `/pages/ROD/generacije_2/${encodeURIComponent(rod)}`,    
-    `/pages/ROD/generacije_3/${encodeURIComponent(rod)}`
+    `/pages/ROD/generacije_3/${encodeURIComponent(rod)}`,
+    `/pages/ROD/stablo_rodbinski_odnosi/${encodeURIComponent(rod)}`
   ]);
 
   // 2) OBITELJI
