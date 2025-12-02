@@ -103,8 +103,8 @@ export const dynamicPaths = () => {
   ];
 
   const rodPaths = rodovi.flatMap(rod => [
-    `/pages/ROD/prezime_obitelji/${encodeURIComponent(rod)}`,
-    `/pages/ROD/prezime_prvi_zapis/${encodeURIComponent(rod)}`,
+    `/pages/ROD/prezime/prezime_obitelji/${encodeURIComponent(rod)}`,
+    `/pages/ROD/prezime/prezime_prvi_zapis/${encodeURIComponent(rod)}`,
     `/pages/ROD/generacije_1/${encodeURIComponent(rod)}`,
     `/pages/ROD/generacije_2/${encodeURIComponent(rod)}`,    
     `/pages/ROD/generacije_3/${encodeURIComponent(rod)}`,
