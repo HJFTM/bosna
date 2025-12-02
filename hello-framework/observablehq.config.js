@@ -97,7 +97,7 @@ export const dynamicPaths = () => {
   data.obitelj
     .filter(o => o.ROD && o.ROD != null)
     .flatMap(o => [
-      `/pages/ROD/prezime_obitelj/${encodeURIComponent(o.ROD)}`
+      `/pages/ROD/prezime_obitelji/${encodeURIComponent(o.ROD)}`
     ])
     .concat(  
   data.obitelj
