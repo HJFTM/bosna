@@ -6,7 +6,7 @@
       "pages": [
         {
           "name": "  Prezime",
-          "path": "/pages/ROD/prezime/Bosna"
+          "path": "/pages/ROD/prezime/prezime/Bosna"
         },
         {
           "name": "  Generacije",
@@ -2248,7 +2248,7 @@
     }
   ],
   "entryPoints": [
-    "/pages/ROD/prezime/Bosna",
+    "/pages/ROD/prezime/prezime/Bosna",
     "/pages/ROD/generacije/Bosna",
     "/pages/ROD/obitelji/Bosna",
     "/pages/ROD/dogadjaji/Bosna",
@@ -6955,22 +6955,22 @@
     ]
   ],
   "dynamicPaths": [
-    "/pages/ROD/prezime_obitelji/Dubrovnik",
-    "/pages/ROD/prezime_prvi_zapis/Dubrovnik",
+    "/pages/ROD/prezime/prezime_obitelji/Dubrovnik",
+    "/pages/ROD/prezime/prezime_prvi_zapis/Dubrovnik",
     "/pages/ROD/generacije_1/Dubrovnik",
     "/pages/ROD/generacije_2/Dubrovnik",
     "/pages/ROD/generacije_3/Dubrovnik",
     "/pages/ROD/stablo/stablo/Dubrovnik",
     "/pages/ROD/stablo/rodbinski_odnosi/Dubrovnik",
-    "/pages/ROD/prezime_obitelji/Bosna",
-    "/pages/ROD/prezime_prvi_zapis/Bosna",
+    "/pages/ROD/prezime/prezime_obitelji/Bosna",
+    "/pages/ROD/prezime/prezime_prvi_zapis/Bosna",
     "/pages/ROD/generacije_1/Bosna",
     "/pages/ROD/generacije_2/Bosna",
     "/pages/ROD/generacije_3/Bosna",
     "/pages/ROD/stablo/stablo/Bosna",
     "/pages/ROD/stablo/rodbinski_odnosi/Bosna",
-    "/pages/ROD/prezime_obitelji/Stupnik",
-    "/pages/ROD/prezime_prvi_zapis/Stupnik",
+    "/pages/ROD/prezime/prezime_obitelji/Stupnik",
+    "/pages/ROD/prezime/prezime_prvi_zapis/Stupnik",
     "/pages/ROD/generacije_1/Stupnik",
     "/pages/ROD/generacije_2/Stupnik",
     "/pages/ROD/generacije_3/Stupnik",
