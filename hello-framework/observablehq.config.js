@@ -92,49 +92,70 @@ const entryPoints = [
 
 // 3️⃣ Dinamičke rute za obitelji (npr. [obitelj].md stranice)
 export const dynamicPaths = () => {
-  return data.obitelj
-    .filter(o => o.ROD && o.ROD != null)
-    .flatMap(o => [
-      `/pages/ROD/prezime_obitelji/${encodeURIComponent(o.ROD)}`
-    ])
-    .concat(  
-  data.obitelj
+
+  // 1) JEDINSTVENI RODOVI
+  const rodovi = [
+    ...new Set(
+      data.obitelj
+        .filter(o => o.ROD)
+        .map(o => o.ROD)
+    )
+  ];
+
+  const rodPaths = rodovi.map(rod =>
+    `/pages/ROD/prezime_obitelji/${encodeURIComponent(rod)}`
+  );
+
+  // 2) OBITELJI
+  const obiteljPaths = data.obitelj
     .filter(o => o.OBITELJ)
     .flatMap(o => [
       `/pages/ENTITET/obitelj/${encodeURIComponent(o.OBITELJ)}`,
       `/pages/ENTITET/obitelj_geo/${encodeURIComponent(o.OBITELJ)}`,
       `/pages/ENTITET/obitelj_stablo/${encodeURIComponent(o.OBITELJ)}`,
       `/pages/ENTITET/obitelj_zapis/${encodeURIComponent(o.OBITELJ)}`
-    ])
-    .concat(
-      data.obitelj
-        .filter(o => o.MJESTO)
-        .flatMap(o => [
-          `/pages/ENTITET/mjesto/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_zupe/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_migracije/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_obitelji/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_stablo/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_zapisi/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_dogadjaji/${encodeURIComponent(o.MJESTO)}`,
-          `/pages/ENTITET/mjesto_groblje/${encodeURIComponent(o.MJESTO)}`
-        ])
-    )
-   .concat(data.župe
-    .filter(z => z.ZUPA && z.ZUPA != null)
+    ]);
+
+  // 3) MJESTA
+  const mjestoPaths = data.obitelj
+    .filter(o => o.MJESTO)
+    .flatMap(o => [
+      `/pages/ENTITET/mjesto/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_zupe/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_migracije/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_obitelji/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_stablo/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_zapisi/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_dogadjaji/${encodeURIComponent(o.MJESTO)}`,
+      `/pages/ENTITET/mjesto_groblje/${encodeURIComponent(o.MJESTO)}`
+    ]);
+
+  // 4) ŽUPE
+  const zupePaths = data.župe
+    .filter(z => z.ZUPA)
     .flatMap(z => [
       `/pages/ENTITET/zupa/${encodeURIComponent(z.ZUPA)}`,
       `/pages/ENTITET/zupa_matica/${encodeURIComponent(z.ZUPA)}`,
-      `/pages/ENTITET/zupa_stablo/${encodeURIComponent(z.ZUPA)}`,  
-      `/pages/ENTITET/zupa_popis/${encodeURIComponent(z.ZUPA)}`,
-    ])).concat (    data.zapisi_matice 
-    .filter(z => z.MATICA && z.MATICA != null)
+      `/pages/ENTITET/zupa_stablo/${encodeURIComponent(z.ZUPA)}`,
+      `/pages/ENTITET/zupa_popis/${encodeURIComponent(z.ZUPA)}`
+    ]);
+
+  // 5) MATICE
+  const maticePaths = data.zapisi_matice
+    .filter(z => z.MATICA)
     .flatMap(z => [
       `/pages/ENTITET/matica/${encodeURIComponent(z.MATICA)}`,
-      `/pages/ENTITET/matica_zapisi/${encodeURIComponent(z.MATICA)}`,
-    ]))
-    
-    ;
+      `/pages/ENTITET/matica_zapisi/${encodeURIComponent(z.MATICA)}`
+    ]);
+
+  // FINAL
+  return [
+    ...rodPaths,
+    ...obiteljPaths,
+    ...mjestoPaths,
+    ...zupePaths,
+    ...maticePaths
+  ];
 };
 
 // 4️⃣ Finalni config
