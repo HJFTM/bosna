@@ -12,7 +12,5 @@ new Runtime().module(define, name => {
   if (name === "prezime_header") return new Inspector(document.querySelector("#observablehq-prezime_header-b9087471"));
   if (name === "paragraph1") return new Inspector(document.querySelector("#observablehq-paragraph1-b9087471"));
   if (name === "prezime_plot") return new Inspector(document.querySelector("#observablehq-prezime_plot-b9087471"));
-  if (name === "paragraph2") return new Inspector(document.querySelector("#observablehq-paragraph2-b9087471"));
-  if (name === "prezime_table") return new Inspector(document.querySelector("#observablehq-prezime_table-b9087471"));
 });
 </script>
