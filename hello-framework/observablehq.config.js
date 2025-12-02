@@ -92,7 +92,15 @@ const entryPoints = [
 
 // 3️⃣ Dinamičke rute za obitelji (npr. [obitelj].md stranice)
 export const dynamicPaths = () => {
-  return data.obitelj
+  return 
+    // ROD PODSTRANICE
+  data.obitelj
+    .filter(o => o.ROD && o.ROD != null)
+    .flatMap(o => [
+      `/pages/ROD/prezime_obitelj/${encodeURIComponent(o.ROD)}`
+    ])
+    .concat(  
+  data.obitelj
     .filter(o => o.OBITELJ)
     .flatMap(o => [
       `/pages/ENTITET/obitelj/${encodeURIComponent(o.OBITELJ)}`,
