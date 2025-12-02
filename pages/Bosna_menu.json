@@ -6955,6 +6955,9 @@
     ]
   ],
   "dynamicPaths": [
+    "/pages/ROD/prezime_obitelji/Dubrovnik",
+    "/pages/ROD/prezime_obitelji/Bosna",
+    "/pages/ROD/prezime_obitelji/Stupnik",
     "/pages/ENTITET/obitelj/ROOT_DU",
     "/pages/ENTITET/obitelj_geo/ROOT_DU",
     "/pages/ENTITET/obitelj_stablo/ROOT_DU",
