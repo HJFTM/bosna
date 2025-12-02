@@ -1,7 +1,6 @@
 <div id="observablehq-prezime_header-74b440e1"></div>
 <div id="observablehq-prezime_table-74b440e1"></div>
 <div id="observablehq-prezime_plot_old-74b440e1"></div>
-<p>Credit: <a href="https://observablehq.com/d/187a2259dc66d54d">Prezime (R) Obitelji by FTM</a></p>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
