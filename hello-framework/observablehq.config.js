@@ -141,9 +141,9 @@ export const dynamicPaths = () => {
     .filter(z => z.ZUPA)
     .flatMap(z => [
       `/pages/ENTITET/zupa/${encodeURIComponent(z.ZUPA)}`,
-      `/pages/ENTITET/zupa/zupa_matica/${encodeURIComponent(z.ZUPA)}`,
-      `/pages/ENTITET/zupa/zupa_stablo/${encodeURIComponent(z.ZUPA)}`,
-      `/pages/ENTITET/zupa/zupa_popis/${encodeURIComponent(z.ZUPA)}`
+      `/pages/ENTITET/zupa_matica/${encodeURIComponent(z.ZUPA)}`,
+      `/pages/ENTITET/zupa_stablo/${encodeURIComponent(z.ZUPA)}`,
+      `/pages/ENTITET/zupa_popis/${encodeURIComponent(z.ZUPA)}`
     ]);
 
   // 5) MATICE
