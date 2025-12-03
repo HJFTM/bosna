@@ -26,7 +26,7 @@
         },
         {
           "name": "  Mjesta",
-          "path": "/pages/ROD/mjesta/Bosna"
+          "path": "/pages/ROD/mjesta/mjesta/Bosna"
         },
         {
           "name": "  Migracije",
@@ -2253,7 +2253,7 @@
     "/pages/ROD/obitelji/Bosna",
     "/pages/ROD/dogadjaji/Bosna",
     "/pages/ROD/stablo/stablo/Bosna",
-    "/pages/ROD/mjesta/Bosna",
+    "/pages/ROD/mjesta/mjesta/Bosna",
     "/pages/ROD/migracije/Bosna",
     "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
