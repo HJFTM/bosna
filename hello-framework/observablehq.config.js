@@ -110,7 +110,8 @@ export const dynamicPaths = () => {
     `/pages/ROD/generacije/generacije_3/${encodeURIComponent(rod)}`,
     `/pages/ROD/stablo/stablo/${encodeURIComponent(rod)}`,
     `/pages/ROD/stablo/rodbinski_odnosi/${encodeURIComponent(rod)}`,
-    `/pages/ROD/mjesta/mjesta_obitelji/${encodeURIComponent(rod)}`,    
+    `/pages/ROD/mjesta/mjesta_obitelji/${encodeURIComponent(rod)}`,  
+    `/pages/ROD/zupe/zupe_1700/${encodeURIComponent(rod)}`,   
   ]);
 
   // 2) OBITELJI
