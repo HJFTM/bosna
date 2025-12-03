@@ -42,7 +42,7 @@
         },
         {
           "name": "  Župe",
-          "path": "/pages/ROD/zupe/Bosna"
+          "path": "/pages/ROD/zupe/zupe/Bosna"
         }
       ]
     },
@@ -2257,7 +2257,7 @@
     "/pages/ROD/migracije/Bosna",
     "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
-    "/pages/ROD/zupe/Bosna",
+    "/pages/ROD/zupe/zupe/Bosna",
     "/pages/ROD/popisi/Bosna",
     "/pages/ROD/matice/Bosna",
     "/pages/ROD/groblje/Bosna",
