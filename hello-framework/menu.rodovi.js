@@ -15,7 +15,7 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
         { name: "  Stablo",       path: `/pages/ROD/stablo/stablo/${encodeURIComponent(rod)}`},
         { name: "  Mjesta",       path: `/pages/ROD/mjesta/mjesta/${encodeURIComponent(rod)}`},
         { name: "  Migracije",    path: `/pages/ROD/migracije/${encodeURIComponent(rod)}`},
-        { name: "  Bolesti",      path: `/pages/ROD/bolesti/${encodeURIComponent(rod)}`},
+        //{ name: "  Bolesti",      path: `/pages/ROD/bolesti/${encodeURIComponent(rod)}`},
        { name: "  Izvori*",      path: `/pages/ROD/izvori/${encodeURIComponent(rod)}`},
         { name: "  Župe",         path: `/pages/ROD/zupe/zupe/${encodeURIComponent(rod)}`},
       ]
@@ -38,7 +38,7 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
         //{ name: "  Popisi",        path: `/pages/ROD/popisi/${encodeURIComponent(rod)}`},
         //{ name: "  Matice",        path: `/pages/ROD/matice/${encodeURIComponent(rod)}`},
         //{ name: "  Groblje",       path: `/pages/ROD/groblje/${encodeURIComponent(rod)}`},
-        { name: "  Grobovi",       path: `/pages/ROD/grobovi/${encodeURIComponent(rod)}`},
+        //{ name: "  Grobovi",       path: `/pages/ROD/grobovi/${encodeURIComponent(rod)}`},
         //{ name: "  Katastar",      path: `/pages/ROD/katastar/${encodeURIComponent(rod)}`},
         //{ name: "  Pismo / Jezik", path: `/pages/ROD/pismo/pismo/${encodeURIComponent(rod)}`},
       ]
