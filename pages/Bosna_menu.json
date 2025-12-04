@@ -50,24 +50,8 @@
       "name": "Izvori",
       "pages": [
         {
-          "name": "  Popisi",
-          "path": "/pages/ROD/popisi/Bosna"
-        },
-        {
-          "name": "  Matice",
-          "path": "/pages/ROD/matice/Bosna"
-        },
-        {
-          "name": "  Groblje",
-          "path": "/pages/ROD/groblje/Bosna"
-        },
-        {
           "name": "  Grobovi",
           "path": "/pages/ROD/grobovi/Bosna"
-        },
-        {
-          "name": "  Katastar",
-          "path": "/pages/ROD/katastar/Bosna"
         },
         {
           "name": "  Pismo / Jezik",
@@ -2258,11 +2242,7 @@
     "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/zupe/Bosna",
-    "/pages/ROD/popisi/Bosna",
-    "/pages/ROD/matice/Bosna",
-    "/pages/ROD/groblje/Bosna",
     "/pages/ROD/grobovi/Bosna",
-    "/pages/ROD/katastar/Bosna",
     "/pages/ROD/pismo/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
