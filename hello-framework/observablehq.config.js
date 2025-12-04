@@ -16,7 +16,6 @@ if (CURRENT_PROJECT === "uvod") {
   pages = uvodPages;
   pages = obiteljiPages;
   pages = {
-    name: "TEST",
   };
 } else if (CURRENT_PROJECT === "mjesta") {
   pages = mjestaMenu; 
