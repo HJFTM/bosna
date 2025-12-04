@@ -35,11 +35,11 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
     {
       name: "Izvori",
       pages: [
-        { name: "  Popisi",        path: `/pages/ROD/popisi/${encodeURIComponent(rod)}`},
-        { name: "  Matice",        path: `/pages/ROD/matice/${encodeURIComponent(rod)}`},
-        { name: "  Groblje",       path: `/pages/ROD/groblje/${encodeURIComponent(rod)}`},
+        //{ name: "  Popisi",        path: `/pages/ROD/popisi/${encodeURIComponent(rod)}`},
+        //{ name: "  Matice",        path: `/pages/ROD/matice/${encodeURIComponent(rod)}`},
+        //{ name: "  Groblje",       path: `/pages/ROD/groblje/${encodeURIComponent(rod)}`},
         { name: "  Grobovi",       path: `/pages/ROD/grobovi/${encodeURIComponent(rod)}`},
-        { name: "  Katastar",      path: `/pages/ROD/katastar/${encodeURIComponent(rod)}`},
+        //{ name: "  Katastar",      path: `/pages/ROD/katastar/${encodeURIComponent(rod)}`},
         { name: "  Pismo / Jezik", path: `/pages/ROD/pismo/${encodeURIComponent(rod)}`},
       ]
     }
