@@ -1,7 +1,6 @@
 <div id="observablehq-header-04905c8f"></div>
 <div id="observablehq-md_text-04905c8f"></div>
 <div id="observablehq-table-04905c8f"></div>
-<p>Credit: <a href="https://observablehq.com/d/868172349b01ecd3">Groblje (R) by FTM</a></p>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
