@@ -117,7 +117,7 @@ export const dynamicPaths = () => {
     `/pages/ROD/groblje/${encodeURIComponent(rod)}`,
     `/pages/ROD/grobovi/${encodeURIComponent(rod)}`,
     `/pages/ROD/katastar/${encodeURIComponent(rod)}`,
-    `/pages/ROD/pismo/${encodeURIComponent(rod)}`,
+    `/pages/ROD/pismo/pismo/${encodeURIComponent(rod)}`,
   ]);
 
   // 2) OBITELJI
