@@ -55,7 +55,7 @@
         },
         {
           "name": "  Pismo / Jezik",
-          "path": "/pages/ROD/pismo/Bosna"
+          "path": "/pages/ROD/pismo/pismo/Bosna"
         }
       ]
     },
@@ -2243,7 +2243,7 @@
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/zupe/Bosna",
     "/pages/ROD/grobovi/Bosna",
-    "/pages/ROD/pismo/Bosna",
+    "/pages/ROD/pismo/pismo/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
     "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
@@ -6949,7 +6949,7 @@
     "/pages/ROD/groblje/Dubrovnik",
     "/pages/ROD/grobovi/Dubrovnik",
     "/pages/ROD/katastar/Dubrovnik",
-    "/pages/ROD/pismo/Dubrovnik",
+    "/pages/ROD/pismo/pismo/Dubrovnik",
     "/pages/ROD/prezime/prezime_obitelji/Bosna",
     "/pages/ROD/prezime/prezime_prvi_zapis/Bosna",
     "/pages/ROD/generacije/generacije_1/Bosna",
@@ -6964,7 +6964,7 @@
     "/pages/ROD/groblje/Bosna",
     "/pages/ROD/grobovi/Bosna",
     "/pages/ROD/katastar/Bosna",
-    "/pages/ROD/pismo/Bosna",
+    "/pages/ROD/pismo/pismo/Bosna",
     "/pages/ROD/prezime/prezime_obitelji/Stupnik",
     "/pages/ROD/prezime/prezime_prvi_zapis/Stupnik",
     "/pages/ROD/generacije/generacije_1/Stupnik",
@@ -6979,7 +6979,7 @@
     "/pages/ROD/groblje/Stupnik",
     "/pages/ROD/grobovi/Stupnik",
     "/pages/ROD/katastar/Stupnik",
-    "/pages/ROD/pismo/Stupnik",
+    "/pages/ROD/pismo/pismo/Stupnik",
     "/pages/ENTITET/obitelj/ROOT_DU",
     "/pages/ENTITET/obitelj_geo/ROOT_DU",
     "/pages/ENTITET/obitelj_stablo/ROOT_DU",
