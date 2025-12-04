@@ -111,7 +111,13 @@ export const dynamicPaths = () => {
     `/pages/ROD/stablo/stablo/${encodeURIComponent(rod)}`,
     `/pages/ROD/stablo/rodbinski_odnosi/${encodeURIComponent(rod)}`,
     `/pages/ROD/mjesta/mjesta_obitelji/${encodeURIComponent(rod)}`,  
-    `/pages/ROD/zupe/zupe_1700/${encodeURIComponent(rod)}`,   
+    `/pages/ROD/zupe/zupe_1700/${encodeURIComponent(rod)}`, 
+    `/pages/ROD/popisi/${encodeURIComponent(rod)}`,
+    `/pages/ROD/matice/${encodeURIComponent(rod)}`,
+    `/pages/ROD/groblje/${encodeURIComponent(rod)}`,
+    `/pages/ROD/grobovi/${encodeURIComponent(rod)}`,
+    `/pages/ROD/katastar/${encodeURIComponent(rod)}`,
+    `/pages/ROD/pismo/${encodeURIComponent(rod)}`,
   ]);
 
   // 2) OBITELJI
