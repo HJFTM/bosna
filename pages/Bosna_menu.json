@@ -33,10 +33,6 @@
           "path": "/pages/ROD/migracije/Bosna"
         },
         {
-          "name": "  Bolesti",
-          "path": "/pages/ROD/bolesti/Bosna"
-        },
-        {
           "name": "  Izvori*",
           "path": "/pages/ROD/izvori/Bosna"
         },
@@ -48,12 +44,7 @@
     },
     {
       "name": "Izvori",
-      "pages": [
-        {
-          "name": "  Grobovi",
-          "path": "/pages/ROD/grobovi/Bosna"
-        }
-      ]
+      "pages": []
     },
     {
       "name": "Mjesta",
@@ -2235,10 +2226,8 @@
     "/pages/ROD/stablo/stablo/Bosna",
     "/pages/ROD/mjesta/mjesta/Bosna",
     "/pages/ROD/migracije/Bosna",
-    "/pages/ROD/bolesti/Bosna",
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/zupe/Bosna",
-    "/pages/ROD/grobovi/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
     "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
