@@ -52,10 +52,6 @@
         {
           "name": "  Grobovi",
           "path": "/pages/ROD/grobovi/Bosna"
-        },
-        {
-          "name": "  Pismo / Jezik",
-          "path": "/pages/ROD/pismo/pismo/Bosna"
         }
       ]
     },
@@ -2243,7 +2239,6 @@
     "/pages/ROD/izvori/Bosna",
     "/pages/ROD/zupe/zupe/Bosna",
     "/pages/ROD/grobovi/Bosna",
-    "/pages/ROD/pismo/pismo/Bosna",
     "/pages/ENTITET/mjesto/Popovi%C4%87i",
     "/pages/ENTITET/mjesto/Miljanovci",
     "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
