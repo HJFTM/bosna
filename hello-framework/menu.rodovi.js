@@ -31,7 +31,8 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
     name: "Obitelji",
     pages: obiteljiPages
    },
-*/
+   */
+   /*
     {
       name: "Izvori",
       pages: [
@@ -43,6 +44,7 @@ export function getRodEntitetiIzvoriPages(rod, obitelji) {
         //{ name: "  Pismo / Jezik", path: `/pages/ROD/pismo/pismo/${encodeURIComponent(rod)}`},
       ]
     }
+    */
    
   ];
 }
