@@ -16,6 +16,8 @@ if (CURRENT_PROJECT === "uvod") {
   pages = uvodPages;
   pages = obiteljiPages;
   pages = {
+      
+    { name: "Naslovnica",   path: "/pages/0 Uvod/1_Naslovnica" },
   };
 } else if (CURRENT_PROJECT === "mjesta") {
   pages = mjestaMenu; 
