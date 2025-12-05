@@ -121,6 +121,7 @@ export const dynamicPaths = () => {
     `/pages/ROD/stablo/rodbinski_odnosi/${encodeURIComponent(rod)}`,
     `/pages/ROD/mjesta/mjesta_obitelji/${encodeURIComponent(rod)}`,  
     `/pages/ROD/zupe/zupe_1700/${encodeURIComponent(rod)}`, 
+    `/pages/ROD/zupe/zupe_rodoslovlje/${encodeURIComponent(rod)}`,    
     `/pages/ROD/popisi/${encodeURIComponent(rod)}`,
     `/pages/ROD/matice/${encodeURIComponent(rod)}`,
     `/pages/ROD/groblje/${encodeURIComponent(rod)}`,
