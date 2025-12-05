@@ -27,12 +27,14 @@ if (CURRENT_PROJECT === "uvod") {
 } else if (CURRENT_PROJECT === "Obitelji") {
  pages = obiteljiPages;
 } else if (CURRENT_PROJECT === "izvori") {
+  // Zupe
   pages = izvoriPages;
 } else if (CURRENT_PROJECT === "zapisi") {
+  // Matice
   pages = zapisiPages; 
 } else {
   let rod_pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
-  pages = [...rod_pages, ...mjestaMenu, ...obiteljiPages, ...zapisiPages, ...izvoriPages]
+  pages = [...rod_pages, ...mjestaMenu, ...obiteljiPages, ...izvoriPages]
 
 }
 
