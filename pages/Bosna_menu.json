@@ -276,7 +276,8 @@
       ]
     },
     {
-      "name": "Obitelji: Popovići",
+      "name": "Popovići",
+      "path": "/pages/ENTITET/mjesto/Popovi%C4%87i",
       "pages": [
         {
           "name": "1700. Marko",
@@ -611,7 +612,8 @@
       ]
     },
     {
-      "name": "Obitelji: Miljanovci",
+      "name": "Miljanovci",
+      "path": "/pages/ENTITET/mjesto/Miljanovci",
       "pages": [
         {
           "name": "1775. Ilija",
@@ -704,7 +706,8 @@
       ]
     },
     {
-      "name": "Obitelji: Dubočac",
+      "name": "Dubočac",
+      "path": "/pages/ENTITET/mjesto/Dubo%C4%8Dac",
       "pages": [
         {
           "name": "1765. Ivan",
@@ -995,7 +998,8 @@
       ]
     },
     {
-      "name": "Obitelji: Dragalovci",
+      "name": "Dragalovci",
+      "path": "/pages/ENTITET/mjesto/Dragalovci",
       "pages": [
         {
           "name": "1748. Nikola",
@@ -1110,7 +1114,8 @@
       ]
     },
     {
-      "name": "Obitelji: Sivša",
+      "name": "Sivša",
+      "path": "/pages/ENTITET/mjesto/Siv%C5%A1a",
       "pages": [
         {
           "name": "1758. Mio",
@@ -1731,7 +1736,8 @@
       ]
     },
     {
-      "name": "Obitelji: Pećnik",
+      "name": "Pećnik",
+      "path": "/pages/ENTITET/mjesto/Pe%C4%87nik",
       "pages": [
         {
           "name": "1800. Mato",
