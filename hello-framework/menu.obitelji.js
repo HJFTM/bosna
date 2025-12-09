@@ -1,5 +1,6 @@
 import {CURRENT_PROJECT, data} from "./observablehq.base.js";
 
+export const mjestaObitelji = generirajMjestaObitelji(data.obitelj, "Bosna");
 export const obitelji = generirajObiteljiPoMjestu(data.obitelj, "Bosna");
 const obiteljiGEO = generirajObiteljiGEOpoMjestu(data.obitelj, "Bosna");
 const obiteljiZapis = generirajObiteljiZapis(data.obitelj, "Bosna");
@@ -9,12 +10,84 @@ export const obiteljiPages = [
   ...obitelji, 
 ];
 
+export const mjestaObiteljiPages = [
+  ...mjestaObitelji, 
+];
+
 export const obiteljiPagesAll = [
   ...obitelji, 
   ...obiteljiGEO, 
   ...obiteljiStablo, 
   ...obiteljiZapis, 
 ];
+
+export function generirajMjestaObitelji(data, rod = "Bosna") {
+  const mjestaSet = new Set();
+
+  // 1) skup mjesta – samo TIP === "M"
+  for (const o of data) {
+    if (!o.ROD || o.ROD !== rod || !o.MJESTO || !o.OBITELJ || o.TIP !== "M") continue;
+    mjestaSet.add(o.MJESTO.trim());
+  }
+
+  const mjesta = Array.from(mjestaSet);
+  const mapaMjesta = {};
+
+  for (const mjesto of mjesta) {
+    // 2) filtriraj obitelji za to mjesto (uključujući migracije)
+    const obiteljiZaMjesto = data.filter(o =>
+      o.ROD === rod &&
+      o.TIP === "M" &&
+      o.OBITELJ &&
+      (
+        (o.MJESTO && o.MJESTO.trim() === mjesto) ||
+        (o.MIGRACIJA &&
+          o.MIGRACIJA
+            .split(/[,;]/)
+            .map(s => s.trim())
+            .includes(mjesto))
+      )
+    );
+
+    // 3) grupiraj po nazivu obitelji (da izbjegnemo duplikate)
+    const mapaObitelji = new Map();
+
+    for (const o of obiteljiZaMjesto) {
+      const obitelj = o.OBITELJ;
+      if (!mapaObitelji.has(obitelj)) {
+        const osnovni = `/pages/ENTITET/obitelj/${encodeURIComponent(obitelj)}`;
+        const geo = `/pages/ENTITET/obitelj_geo/${encodeURIComponent(obitelj)}`;
+        const stablo = `/pages/ENTITET/obitelj_stablo/${encodeURIComponent(obitelj)}`;
+        const zapis = `/pages/ENTITET/obitelj_zapis/${encodeURIComponent(obitelj)}`;
+        mapaObitelji.set(obitelj, { osnovni, geo, stablo, zapis });
+      }
+    }
+
+    // 4) pretvori u strukturu menija: obitelji kao podstranice
+    const obitelji = Array.from(mapaObitelji.entries()).map(
+      ([obitelj, paths]) => ({
+        name: obitelj,
+        path: paths.osnovni,
+        pages: [
+          { name: "Pregled", path: paths.osnovni },
+          { name: "Na karti", path: paths.geo },
+          { name: "Stablo", path: paths.stablo },
+          { name: "Zapis", path: paths.zapis }
+        ]
+      })
+    );
+
+    mapaMjesta[mjesto] = obitelji;
+  }
+
+  // 5) top-level: svako mjesto je stranica, obitelji su podstranice tog mjesta
+  return Object.entries(mapaMjesta).map(([mjesto, obitelji]) => ({
+    name: mjesto,
+    path: `/pages/ENTITET/mjesto/${encodeURIComponent(mjesto)}`,
+    pages: obitelji
+  }));
+}
+
 
 export function generirajObiteljiPoMjestu(data, rod = "Bosna") {
   const mjestaSet = new Set();
