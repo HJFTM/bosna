@@ -34,7 +34,7 @@ if (CURRENT_PROJECT === "uvod") {
   pages = zapisiPages; 
 } else {
   let rod_pages = getRodEntitetiIzvoriPages(CURRENT_PROJECT, data.obitelj);
-  pages = [...rod_pages, ...mjestaMenu, ...mjestaObiteljiPages, ...izvoriPages]
+  pages = [...rod_pages, ...mjestaObiteljiPages, ...izvoriPages]
 
 }
 
